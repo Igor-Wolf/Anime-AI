@@ -1,0 +1,403 @@
+<!DOCTYPE html>
+<html lang="Pt-Br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ANIME AI</title>
+    <link rel="stylesheet" href="style/main.css">
+    <link rel="stylesheet" href="style/responsive.css">
+
+    <!-- owl css -->
+    <link rel="stylesheet" href="style/owl/owl.carousel.min.css">
+    <link rel="stylesheet" href="style/owl/owl.theme.default.min.css">
+</head>
+
+<body>
+    <!------------------------------------------------------------------------------------------------------------------------------- Cabeçalho -->
+
+    <header>
+        <div class="container">
+            <h2 id="logo" class="logo">ANIMEAI</h2>
+            <nav>
+                <a href="#logo">Inicio</a>
+                <a href="#lancamentos">Lançamentos</a>
+                <a href="#series">Séries</a>
+                <a href="#filmes">Filmes</a>
+
+            </nav>
+        </div>
+    </header>
+    <main>
+
+        <!------------------------------------------------------------------------------------------------------------------------------- Popup video -->
+
+
+        <div class="container">
+            <div id="popup1" class="popup">
+                <div class="popup-content">
+                    <div id="spamar">
+                        <span class="close" onclick="closePopup('popup1')">&times;</span>
+                    </div>
+                    <div class="video-container">
+                        <iframe src="https://www.youtube.com/embed/MWrsQmBIkhM"
+                            title="Solo Leveling em PORTUGUÊS | TRAILER OFICIAL" frameborder="0"
+                            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                            referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+        <div class="container">
+            <div id="popup2" class="popup">
+                <div class="popup-content">
+                    <div id="spamar">
+                        <span class="close" onclick="closePopup('popup2')">&times;</span>
+                    </div>
+                    <div class="video-container">
+                        <iframe src="https://www.youtube.com/embed/TcYz4v1Y9ko" title="Tower of God | TRAILER OFICIAL"
+                            frameborder="0"
+                            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                            referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+        <div class="container">
+            <div id="popup3" class="popup">
+                <div class="popup-content">
+                    <div id="spamar">
+                        <span class="close" onclick="closePopup('popup3')">&times;</span>
+                    </div>
+                    <div class="video-container">
+                        <iframe src="https://www.youtube.com/embed/86huOYthTb4" title="Chainsaw Man | TRAILER OFICIAL 2"
+                            frameborder="0"
+                            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                            referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+        <div class="container">
+            <div id="popup4" class="popup">
+                <div class="popup-content">
+                    <div id="spamar">
+                        <span class="close" onclick="closePopup('popup4')">&times;</span>
+                    </div>
+                    <div class="video-container">
+                        <iframe src="https://www.youtube.com/embed/eXjbk-4ljgc"
+                            title="Frieren e a Jornada para o Além | TRAILER OFICIAL" frameborder="0"
+                            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                            referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+        <!------------------------------------------------------------------------------------------------------------------------------- Cabeçalho -->
+
+        <div class="owl-one owl-carousel owl-theme">
+            <div class="item">
+                <div class="anime-principal a1">
+                    <div class="container">
+                        <h3 class="titulo">Solo Leveling</h3>
+                        <p class="descricao">
+                            Em um mundo onde caçadores – humanos que possuem habilidades mágicas – devem lutar contra
+                            monstros
+                            mortais para proteger a raça humana de certa aniquilação, um caçador notoriamente fraco
+                            chamado Sung
+                            Jinwoo se encontra em uma luta aparentemente interminável pela sobrevivência.
+                        </p>
+                        <div class="botoes">
+
+                            <button role="button" class="botao" onclick="openPopup('popup1')">
+                                <i class="fas fa-play"></i>
+                                ASSITIR AGORA
+                            </button>
+                            <button role="button" class="botao" onclick="nadaAcontece()">
+                                <i class="fas fa-info-circle"></i>
+                                MAIS INFORMAÇÕES
+                            </button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="item">
+                <div class="anime-principal a2">
+                    <div class="container">
+                        <h3 class="titulo">Tower of God</h3>
+                        <p class="descricao">
+                            Em um mundo onde caçadores – humanos que possuem habilidades mágicas – devem lutar contra
+                            monstros
+                            mortais para proteger a raça humana de certa aniquilação, um caçador notoriamente fraco
+                            chamado Sung
+                            Jinwoo se encontra em uma luta aparentemente interminável pela sobrevivência.
+                        </p>
+                        <div class="botoes">
+                            <button role="button" class="botao" onclick="openPopup('popup2')">
+                                <i class="fas fa-play"></i>
+                                ASSITIR AGORA
+                            </button>
+                            <button role="button" class="botao" onclick="nadaAcontece()">
+                                <i class="fas fa-info-circle"></i>
+                                MAIS INFORMAÇÕES
+                            </button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="item">
+                <div class="anime-principal a3">
+                    <div class="container">
+                        <h3 class="titulo">Chainsaw Man</h3>
+                        <p class="descricao">
+                            Denji tem um sonho simples — viver uma vida feliz e pacífica, passando tempo com uma garota
+                            de quem gosta. No entanto, isso está longe da realidade, já que Denji é forçado pela yakuza
+                            a matar demônios para pagar suas dívidas avassaladoras. Usando seu demônio de estimação,
+                            Pochita, como arma, ele está pronto para fazer qualquer coisa por um pouco de dinheiro.
+                        </p>
+                        <div class="botoes">
+                            <button role="button" class="botao" onclick="openPopup('popup3')">
+                                <i class="fas fa-play"></i>
+                                ASSITIR AGORA
+                            </button>
+                            <button role="button" class="botao" onclick="nadaAcontece()">
+                                <i class="fas fa-info-circle"></i>
+                                MAIS INFORMAÇÕES
+                            </button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="item">
+                <div class="anime-principal a4">
+                    <div class="container">
+                        <h3 class="titulo">Frieren</h3>
+                        <p class="descricao">
+                            Em um mundo onde caçadores – humanos que possuem habilidades mágicas – devem lutar contra
+                            monstros
+                            mortais para proteger a raça humana de certa aniquilação, um caçador notoriamente fraco
+                            chamado Sung
+                            Jinwoo se encontra em uma luta aparentemente interminável pela sobrevivência.
+                        </p>
+                        <div class="botoes">
+                            <button role="button" class="botao" onclick="openPopup('popup4')">
+                                <i class="fas fa-play"></i>
+                                ASSITIR AGORA
+                            </button>
+                            <button role="button" class="botao" onclick="nadaAcontece()">
+                                <i class="fas fa-info-circle"></i>
+                                MAIS INFORMAÇÕES
+                            </button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+
+
+        </div>
+    </main>
+
+    <!------------------------------------------------------------------------------------------------------------------------------- sessão 1 -->
+    <div class="section1">
+        <div id="lancamentos" class="lancamentos">
+            <span>
+                <h3>Lançamentos </h3>
+            </span>
+            <div class="divisor"></div>
+
+        </div>
+        <div class="carrossel-animes">
+            <div class="owl-two owl-carousel owl-theme">
+                <div class="item">
+                    <img class="box-anime"
+                        src="https://www.themoviedb.org/t/p/w600_and_h900_bestv2/geCRueV3ElhRTr0xtJuEWJt6dJ1.jpg"
+                        alt="Solo Leveling" onclick="nadaAcontece()">
+                </div>
+                <div class="item">
+                    <img class="box-anime"
+                        src="https://www.themoviedb.org/t/p/w600_and_h900_bestv2/y1AqUftsCLNGRNE7McJzGqLFEdu.jpg"
+                        alt="Solo Leveling" onclick="nadaAcontece()">
+                </div>
+                <div class="item">
+                    <img class="box-anime"
+                        src="https://www.themoviedb.org/t/p/w600_and_h900_bestv2/snMMS7crJjBr9FUeBjSbSIzMUXx.jpg"
+                        alt="Solo Leveling" onclick="nadaAcontece()">
+                </div>
+                <div class="item">
+                    <img class="box-anime"
+                        src="https://www.themoviedb.org/t/p/w600_and_h900_bestv2/npdB6eFzizki0WaZ1OvKcJrWe97.jpg"
+                        alt="Solo Leveling" onclick="nadaAcontece()">
+                </div>
+                <div class="item">
+                    <img class="box-anime"
+                        src="https://www.themoviedb.org/t/p/w600_and_h900_bestv2/pP02x226BwhJmSHGxoWLraZw0OZ.jpg"
+                        alt="Solo Leveling" onclick="nadaAcontece()">
+                </div>
+                <div class="item">
+                    <img class="box-anime"
+                        src="https://www.themoviedb.org/t/p/w600_and_h900_bestv2/hNEG0e6aPq0EwrugX5A5rCc9TGg.jpg"
+                        alt="Solo Leveling" onclick="nadaAcontece()">
+                </div>
+                <div class="item">
+                    <img class="box-anime"
+                        src="https://www.themoviedb.org/t/p/w600_and_h900_bestv2/fHpKWq9ayzSk8nSwqRuaAUemRKh.jpg"
+                        alt="Solo Leveling" onclick="nadaAcontece()">
+                </div>
+                <div class="item">
+                    <img class="box-anime"
+                        src="https://www.themoviedb.org/t/p/w600_and_h900_bestv2/z4rvmhoqQiGMnwuBHY1QcH3OqUo.jpg"
+                        alt="Solo Leveling" onclick="nadaAcontece()">
+                </div>
+                <div class="item">
+                    <img class="box-anime"
+                        src="https://www.themoviedb.org/t/p/w600_and_h900_bestv2/qykTIEJQF8cunKD0CKOqab15wns.jpg"
+                        alt="Solo Leveling" onclick="nadaAcontece()">
+                </div>
+
+            </div>
+        </div>
+    </div>
+
+    <!------------------------------------------------------------------------------------------------------------------------------- sessão 2 -->
+    <div class="section2">
+        <div id="series" class="lancamentos">
+            <span>
+                <h3>Séries</h3>
+            </span>
+            <div class="divisor"></div>
+
+        </div>
+        <div class="carrossel-animes">
+            <div class="owl-two owl-carousel owl-theme">
+                <div class="item">
+                    <img class="box-anime"
+                        src="https://www.themoviedb.org/t/p/w600_and_h900_bestv2/6iysgZr6Upm5RlAlVFo5f4D9euu.jpg"
+                        alt="Steins Gate" onclick="nadaAcontece()">
+                </div>
+                <div class="item">
+                    <img class="box-anime"
+                        src="https://www.themoviedb.org/t/p/w600_and_h900_bestv2/29lrxUigmlzfbZQwdtCE8QUXguN.jpg"
+                        alt="Psycho-Pass" onclick="nadaAcontece()">
+                </div>
+                <div class="item">
+                    <img class="box-anime"
+                        src="https://www.themoviedb.org/t/p/w600_and_h900_bestv2/2cBDhzbP7KOLbWtTzxS4WIDLh70.jpg"
+                        alt="Code Geass" onclick="nadaAcontece()">
+                </div>
+                <div class="item">
+                    <img class="box-anime"
+                        src="https://www.themoviedb.org/t/p/w600_and_h900_bestv2/8H4ej2NpujYVBPsW2smmzC8d2xU.jpg"
+                        alt="Fullmetal Alchemist" onclick="nadaAcontece()">
+                </div>
+                <div class="item">
+                    <img class="box-anime"
+                        src="https://www.themoviedb.org/t/p/w600_and_h900_bestv2/3c5BIEfAhTCWrIi4C8WMuwOl6bX.jpg"
+                        alt="Akame Ga Kill" onclick="nadaAcontece()">
+                </div>
+                <div class="item">
+                    <img class="box-anime"
+                        src="https://www.themoviedb.org/t/p/w600_and_h900_bestv2/rR8HgnD9tqFaSiJ69FpruHo9Gm9.jpg"
+                        alt="Darling in the Franxx" onclick="nadaAcontece()">
+                </div>
+                <div class="item">
+                    <img class="box-anime"
+                        src="https://www.themoviedb.org/t/p/w600_and_h900_bestv2/mK9zGGk90VmHLOnK79sqlGFjZjW.jpg"
+                        alt="Sword Art Online" onclick="nadaAcontece()">
+                </div>
+                <div class="item">
+                    <img class="box-anime"
+                        src="https://www.themoviedb.org/t/p/w600_and_h900_bestv2/oBgRCpAbtMpk1v8wfdsIph7lPQE.jpg"
+                        alt="Yakusoku no Neverland" onclick="nadaAcontece()">
+                </div>
+                <div class="item">
+                    <img class="box-anime"
+                        src="https://www.themoviedb.org/t/p/w600_and_h900_bestv2/nksFLYTydth9OYVpMuMbtOBkvMO.jpg"
+                        alt="Shigatsu wa Kimi no uso" onclick="nadaAcontece()">
+                </div>
+
+            </div>
+        </div>
+    </div>
+
+    <!------------------------------------------------------------------------------------------------------------------------------- sessão 3 -->
+    <div class="section3">
+        <div id="filmes" class="lancamentos">
+            <span>
+                <h3>Filmes</h3>
+            </span>
+            <div class="divisor"></div>
+
+        </div>
+        <div class="carrossel-animes">
+            <div class="owl-two owl-carousel owl-theme">
+                <div class="item">
+                    <img class="box-anime"
+                        src="https://www.themoviedb.org/t/p/w600_and_h900_bestv2/bMOKAjTU1TNUjRSF7icldbii06u.jpg"
+                        alt="Your Name" onclick="nadaAcontece()">
+                </div>
+                <div class="item">
+                    <img class="box-anime"
+                        src="https://www.themoviedb.org/t/p/w600_and_h900_bestv2/7EadOwHmyQgOnlghRiWBygNtnjl.jpg"
+                        alt="Princesa Mononoke" onclick="nadaAcontece()">
+                </div>
+                <div class="item">
+                    <img class="box-anime"
+                        src="https://www.themoviedb.org/t/p/w600_and_h900_bestv2/2lDneiW73fbtDEIlemzq6Bv2vuR.jpg"
+                        alt="A voz do silencio" onclick="nadaAcontece()">
+                </div>
+                <div class="item">
+                    <img class="box-anime"
+                        src="https://www.themoviedb.org/t/p/w600_and_h900_bestv2/uohDiUTPsGGkX4Sb9ZcVGwafEyH.jpg"
+                        alt="Vidas ao vento" onclick="nadaAcontece()">
+                </div>
+                <div class="item">
+                    <img class="box-anime"
+                        src="https://www.themoviedb.org/t/p/w600_and_h900_bestv2/1hTfaEWktMJPxCk5nZNtK7F86C9.jpg"
+                        alt="Castelo Animado" onclick="nadaAcontece()">
+                </div>
+                <div class="item">
+                    <img class="box-anime"
+                        src="https://www.themoviedb.org/t/p/w600_and_h900_bestv2/neZ0ykEsPqxamsX6o5QNUFILQrz.jpg"
+                        alt="Akira" onclick="nadaAcontece()">
+                </div>
+                <div class="item">
+                    <img class="box-anime"
+                        src="https://www.themoviedb.org/t/p/w600_and_h900_bestv2/vbiFo47KaGKNoNZARrTbJDZERDt.jpg"
+                        alt="Contos de Terramar" onclick="nadaAcontece()">
+                </div>
+                <div class="item">
+                    <img class="box-anime"
+                        src="https://www.themoviedb.org/t/p/w600_and_h900_bestv2/4YgDy47HKxcSwUPQWrg0J39lEZA.jpg"
+                        alt="Ghost in the Shell" onclick="nadaAcontece()">
+                </div>
+                <div class="item">
+                    <img class="box-anime"
+                        src="https://www.themoviedb.org/t/p/w600_and_h900_bestv2/hhoKhsyJ3hFaxEm5pMdZRiTu2lJ.jpg"
+                        alt="A viagem de Chihiro" onclick="nadaAcontece()">
+                </div>
+
+            </div>
+        </div>
+    </div>
+    <footer>
+
+        <div>
+            <p>© 2024. Todos os Direitos Reservados à Igor Barbosa. Desenvolvido por <a id="git"
+                    href="https://github.com/Igor-Wolf">IB</a></p>
+        </div>
+    </footer>
+    <script src="https://kit.fontawesome.com/2c36e9b7b1.js"></script>
+    <script src="js/owl/jquery.min.js"></script>
+    <script src="js/owl/owl.carousel.min.js"></script>
+    <script src="js/main.js"></script>
+</body>
+
+</html>

@@ -1,0 +1,281 @@
+:root {
+
+    --vermelho: #1a4daa;
+    --preta: #141414;
+    --cinzento: #aaaaaa42;
+}
+
+* {
+
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    scrollbar-width: thin;
+    scrollbar-color: var(--cinzento) transparent;
+
+}
+
+/*elementos base*/
+
+body {
+
+    background: var(--preta);
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+
+}
+
+header{
+
+    display: flex;
+    flex-direction: column;
+    
+}
+
+header .container {
+
+    display: flex;
+    background-color: var(--preta);
+    align-items: center;
+    justify-content: space-between;
+    margin-left: 20px;
+    z-index: 5000;
+}
+
+
+header .logo {
+
+    color: var(--vermelho);
+    font-family: 'Arial Black', Times;
+    font-size: 40px;
+}
+
+header nav a, #git {
+
+    text-decoration: none;
+    color: #aaa;
+    margin-right: 10px;
+}
+
+header nav a:hover, #git:hover {
+
+    color: #fff
+}
+
+/*filme principal*/
+
+.anime-principal {
+
+    font-size: 1rem;
+    /*  filtro para a capa */
+    height: 25vw;
+    background-size: cover;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+
+}
+
+.a1{
+
+    background: linear-gradient(rgba(0, 0, 0, .50), rgba(0, 0, 0, .80)100%), url('https://media.themoviedb.org/t/p/w1920_and_h800_multi_faces/odVlTMqPPiMksmxpN9cCbPCjUPP.jpg');
+    height: 25vw;
+    background-size: cover;
+}
+
+.a2{
+
+    background: linear-gradient(rgba(0, 0, 0, .50), rgba(0, 0, 0, .80)100%), url('https://media.themoviedb.org/t/p/w1920_and_h800_multi_faces/bkvkJyLqOk2ZbELDEukEAXEatrt.jpg');
+    height: 25vw;
+    background-size: cover;
+}
+
+.a3{
+
+    background: linear-gradient(rgba(0, 0, 0, .50), rgba(0, 0, 0, .80)100%), url('https://media.themoviedb.org/t/p/w1920_and_h800_multi_faces/5DUMPBSnHOZsbBv81GFXZXvDpo6.jpg');
+    height: 25vw;
+    background-size: cover;
+}
+
+.a4{
+
+    background: linear-gradient(rgba(0, 0, 0, .50), rgba(0, 0, 0, .80)100%), url('https://media.themoviedb.org/t/p/w1920_and_h800_multi_faces/96RT2A47UdzWlUfvIERFyBsLhL2.jpg');
+    height: 25vw;
+    background-size: cover;
+}
+
+.anime-principal .descricao {
+
+    margin-bottom: 40px;
+    margin-top: 10px;
+    
+}
+
+.titulo {
+
+    margin-top: 5%;
+    font-size: 40px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+
+
+.botao {
+
+    background-color: rgba(0, 0, 0, .50);
+    border: none;
+    color: white;
+    padding: 15px 30px;
+    margin-right: 15px;
+    font-size: 12px;
+    
+    cursor: pointer;
+
+}
+
+.botao:hover{
+
+    background-color: white;
+    color: var(--preta);
+    transition: ease all .5s;
+}
+
+.botao i{
+
+    margin-right: 8px;
+}
+
+.container{
+
+    margin-left: 20px;
+    margin-right: 10px;
+}
+
+.anime-principal .container{
+
+    width: 50vw;
+}
+
+.box-anime{
+
+    height: 100%;
+    width: 100%;
+    display: block;
+}
+
+.carrossel-animes{
+
+    margin-top: 5px;
+}
+
+.lancamentos{
+
+    margin: 1rem;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: flex-start;
+    gap: 1rem;
+
+}
+
+.divisor {
+    position:relative;
+    width: 100%;
+  }
+  
+  .divisor::after {
+    content: "";
+    position: absolute;
+    top: 50%;
+    left: 0;
+    width: 100%;
+    height: .5px;
+    background-color: #aaa;
+  }
+
+  footer{
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 1rem;
+    border-top: .5px solid var(--cinzento);
+    font-size: .8rem;
+    color: #aaaaaadc;
+  }
+
+  footer p{
+
+    text-align: center;
+
+    
+  }
+
+
+  /*---------------------------------------------------------------------------------- video popup */
+
+
+  .popup {
+    display: none;
+    position: fixed;
+    z-index: 7000;
+    left: 50%; /* Define o ponto de partida horizontalmente no centro da tela */
+    top: 50%; /* Define o ponto de partida verticalmente no centro da tela */
+    transform: translate(-50%, -50%); /* Move o popup de volta para cima e para a esquerda em 50% do seu próprio tamanho */
+    width: 70vw;
+    height: auto; /* Alterado para 'auto' para acomodar o conteúdo */
+    max-width: 90%; /* Limita a largura máxima do popup */
+    max-height: 90%; /* Limita a altura máxima do popup */
+    overflow: auto; /* Adicionado para permitir rolagem se o conteúdo for maior do que a tela */
+    background-color: rgba(0, 0, 0, 0.5);
+}
+
+.popup-content {
+    background-color: #fefefe;
+    margin: 0;
+    border: 1px solid #888;
+    width: 70vw;
+    display: flex;
+    flex-direction: column; 
+    gap: 1rem;
+    padding: 3rem;
+    padding-top: 1rem;
+
+
+}
+
+
+
+.close {
+    color: #aaa;
+    float: right;
+    font-size: 28px;
+    font-weight: bold;
+}
+
+.close:hover,
+.close:focus {
+    color: black;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+.video-container {
+    position: relative;
+    width: 100%;
+    padding-bottom: 56.25%;
+    aspect-ratio: 16 / 9;
+    /* Aspect ratio de 16:9 */
+    overflow:visible;
+}
+
+.video-container iframe {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+}
