@@ -1,2 +1,17 @@
-# Anime-AI
-Front-End de um de site de streaming como Crunchroll, Amazon ou Netflix. Com temática de Animes
+# Change Log v. 0.9
+
+
+## 💡 Features Added
+
+- Projeto criado com sucesso
+- 
+  
+
+## 🕷️ Bugs Reported
+
+- 
+
+
+## 🔧 Issues Fixeds
+
+-
