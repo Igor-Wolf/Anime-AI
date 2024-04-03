@@ -88,6 +88,28 @@ footer{
 .my-video{
 
     margin: .5rem;
+    
+}
+
+.my-video .ytp-large-play-button{
+
+    display: none;
+    
+}
+
+
+.ytp-show-cards-title{
+
+    display: none;
+}
+
+.ytp-chrome-top{
+
+    display: none;
+}
+
+.ytp-large-play-button {
+    display: none !important;
 }
 
 @media screen and (max-width:800px) {

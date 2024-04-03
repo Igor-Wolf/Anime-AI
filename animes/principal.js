@@ -11,10 +11,6 @@ let epi = document.querySelector(".epi")
 var container = document.getElementById("videos");
 
 
-
-
-
-
 function realizar() {
 
     buscar(docTitle.innerHTML)
@@ -36,7 +32,7 @@ function realizar() {
 async function injetar() {
     try {
         // Realiza a busca da página de dados
-        const response = await fetch('/animes/dados.json');
+        const response = await fetch('dados.json');
         console.log("Passou aqui");
 
         // Verifica se a resposta é bem-sucedida
@@ -83,7 +79,10 @@ async function injetar() {
             
                     // Adiciona o elemento do vídeo ao contêiner
                     container.appendChild(videoElement);
+                    
                 });
+
+                
                 return; // Encerra o loop quando o anime é encontrado
             }
         }
