@@ -15,6 +15,7 @@
 
     .popup{
 
+        display: none;
         width: 100vw;
         padding: 0rem;
         max-width: 100%; /* Limita a largura máxima do popup */

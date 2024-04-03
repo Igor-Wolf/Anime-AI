@@ -33,10 +33,12 @@ body{
     flex-direction: row;
     align-items: center;
     justify-content: flex-start;
-    background-color: rgba(255, 255, 255, 0.801);
+    background-color: rgba(255, 255, 255, 1);
     gap: 2rem;
     padding: 2rem;
     color: black;
+    border-radius: 1rem;
+    margin: 1rem;
     
     
 }
@@ -50,6 +52,7 @@ body{
 
     width: 300px;
     height: 450px;
+    border: 1px solid black;
 }
 
 .textContent{

@@ -49,8 +49,8 @@
       "episodios": " ",
       "classificacao": " ",
       "lancamento": " ",
-      "videos": []
-    },
+      "videos": ["https://www.youtube.com/embed/MWrsQmBIkhM", "https://www.youtube.com/embed/ujv2fLp3lU8"]
+    }, 
     {
       "titulo": "Tower of God",
       "ano": "(2020)",

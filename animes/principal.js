@@ -126,16 +126,19 @@ async function injetar() {
 
 injetar();
 
-
+// ----------------------------------------------------------------------- videos em geral
 
 var i = "";
 
 function openPopup(pop) {
-    var popup = document.getElementById("popup1");
+    var popup = document.getElementById("popup0");
     popup.style.display = "flex";    
     var troca = document.getElementById("trocar")
     var novo = document.getElementById(pop)  
     troca.setAttribute("src", novo.src);
+    tela = document.getElementById("filtro")
+
+    tela.style.display ="flex"
     
 }
 
@@ -145,6 +148,9 @@ function closePopup(fechar) {
     popup.style.display = "none";
     iframe = document.querySelector(`#${fechar} iframe`)
     pauseVideo(iframe);
+    tela = document.getElementById("filtro")
+
+    tela.style.display ="none"
     
 }
 
@@ -158,6 +164,30 @@ function pauseVideo(video) {
     
 }
 
+
+//--------------------------------------------------------------------------------------------- video popup carrossel
+
+
+var i = "";
+
+function openCapa(pop) {
+    var popup = document.getElementById(pop);
+    popup.style.display = "flex";
+    tela = document.getElementById("filtro")
+
+    tela.style.display ="flex"
+    
+}
+
+var iframe = document.querySelector('iframe');
+
+// Função para pausar o vídeo
+function pauseVideo(video) {
+    i = video.src;
+    video.src = "";
+    video.src = i;
+    
+}
 
 
 

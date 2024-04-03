@@ -277,10 +277,34 @@ footer p {
 
 
 /*---------------------------------------------------------------------------------- video popup */
+#filtro{
 
+    display: none;
+    position: fixed;
+    z-index: 2;
+    left: 50%;
+    /* Define o ponto de partida horizontalmente no centro da tela */
+    top: 50%;
+    /* Define o ponto de partida verticalmente no centro da tela */
+    transform: translate(-50%, -50%);
+    /* Move o popup de volta para cima e para a esquerda em 50% do seu próprio tamanho */
+    width: 100vw;
+    height: 100vh;
+    /* Alterado para 'auto' para acomodar o conteúdo */
+    max-width: 100%;
+    /* Limita a largura máxima do popup */
+    max-height: 100%;
+    /* Limita a altura máxima do popup */
+    overflow: auto;
+    /* Adicionado para permitir rolagem se o conteúdo for maior do que a tela */
+    background-color: rgba(0, 0, 0, 0.8); 
+    
+
+
+}
 
 .popup {
-    display: none;
+    display: flex;
     position: fixed;
     z-index: 7000;
     left: 50%;
@@ -311,6 +335,7 @@ footer p {
     gap: 1rem;
     padding: 3rem;
     padding-top: 1rem;
+    z-index: 7000;
 
 
 }
