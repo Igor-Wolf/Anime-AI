@@ -1,0 +1,21 @@
+{
+
+    "animes":[
+
+        {
+            "titulo": "Solo leveling",            
+            "ano": 2022,            
+            "url": "aaaa",            
+            "genero": "Animação, Action & Adventure, Sci-Fi & Fantasy",
+            "sinopse": "Cara muito apelão",
+            "img":"https://www.themoviedb.org/t/p/w600_and_h900_bestv2/geCRueV3ElhRTr0xtJuEWJt6dJ1.jpg",
+            
+            "formato" : "tv",
+            "episódios": "15",           
+            "classificacao": "16"
+        }
+
+    ]
+
+
+}
