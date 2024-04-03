@@ -115,6 +115,21 @@ footer{
     display: none !important;
 }
 
+.animesCover #videos{
+
+    display: flex;
+    flex-wrap:wrap;
+    align-items: center;
+    justify-content:center;
+    gap: 1.5rem;
+}
+
+.video-overlay{
+
+    border: 1px solid black;
+    display: flexbox;
+}
+
 
 
 @media screen and (max-width:800px) {

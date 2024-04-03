@@ -49,7 +49,7 @@
 @media screen and (min-width:701px) {
 
     .popup{
-
+        display: none;
         width: 100vw;
         padding: 0rem;
         max-width: 95%; /* Limita a largura máxima do popup */
@@ -60,6 +60,7 @@
 
         width: 95vw;
         padding: 1rem;
+        
 
     }
 
