@@ -112,7 +112,7 @@ async function scraping(link, data) {
             "sinopse": sinopse.textContent.trim(),
             "img": imagem.src.trim(),
             "formato": formato,
-            "episódios": " ",
+            "episodios": " ",
             "classificacao": " ",
             "lancamento": " ",
             "videos": [],
