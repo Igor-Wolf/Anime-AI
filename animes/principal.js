@@ -64,22 +64,52 @@ async function injetar() {
                 img.src = anime.img;
 
 
-                anime.videos.forEach(function(caminho) {
+                anime.videos.forEach(function(caminho, index) {
+                    // Constrói o URL do vídeo com as opções para desativar o autoplay e ocultar informações
+                    var videoUrl = caminho + "?autoplay=0&showinfo=0";
+                    
+                    // Cria um elemento <div> para conter o overlay e o vídeo
+                    var videoContainer = document.createElement("div");
+                    videoContainer.style.position = "relative"; // Garante que a posição do overlay seja relativa a este contêiner
+                    
+                    // Cria um elemento <div> para o overlay
+                    var overlay = document.createElement("div");
+                    
+                    // Adiciona classes e estilos CSS para o overlay
+                    overlay.classList.add("video-overlay");
+                    overlay.style.position = "absolute";
+                    overlay.style.top = "0";
+                    overlay.style.left = "0";
+                    overlay.style.width = "100%";
+                    overlay.style.height = "100%";
+                    overlay.style.cursor = "pointer"; // Altera o cursor para indicar que é clicável
+                    overlay.style.zIndex = "1"; // Garante que o overlay esteja sobre o iframe
+                    
+                    // Adiciona um atributo onclick para chamar a função openPopup
+                    overlay.setAttribute("onclick", "openPopup('video-" + index + "')");
+                    
                     // Cria um elemento <iframe> para o vídeo
                     var videoElement = document.createElement("iframe");
-            
+                    
                     // Configura os atributos do vídeo
                     videoElement.setAttribute("width", "350");
                     videoElement.setAttribute("height", "200");
-                    videoElement.setAttribute("src", caminho);
+                    videoElement.setAttribute("src", videoUrl); // Usa o URL construído
                     videoElement.setAttribute("title", "Embedded Video");
                     videoElement.setAttribute("allowfullscreen", "");
-
-                    videoElement.classList.add("my-video")
-            
-                    // Adiciona o elemento do vídeo ao contêiner
-                    container.appendChild(videoElement);
                     
+                    // Adiciona um ID único para cada elemento
+                    videoElement.setAttribute("id", "video-" + index);
+                    
+                    // Adiciona uma classe para estilização ou outras operações
+                    videoElement.classList.add("my-video");
+                    
+                    // Adiciona o overlay e o vídeo ao contêiner
+                    videoContainer.appendChild(overlay);
+                    videoContainer.appendChild(videoElement);
+                    
+                    // Adiciona o contêiner ao contêiner principal
+                    container.appendChild(videoContainer);
                 });
 
                 
@@ -95,6 +125,39 @@ async function injetar() {
 }
 
 injetar();
+
+
+
+var i = "";
+
+function openPopup(pop) {
+    var popup = document.getElementById("popup1");
+    popup.style.display = "flex";    
+    var troca = document.getElementById("trocar")
+    var novo = document.getElementById(pop)  
+    troca.setAttribute("src", novo.src);
+    
+}
+
+function closePopup(fechar) {
+    var popup = document.getElementById(fechar);
+   
+    popup.style.display = "none";
+    iframe = document.querySelector(`#${fechar} iframe`)
+    pauseVideo(iframe);
+    
+}
+
+var iframe = document.querySelector('iframe');
+
+// Função para pausar o vídeo
+function pauseVideo(video) {
+    i = video.src;
+    video.src = "";
+    video.src = i;
+    
+}
+
 
 
 
