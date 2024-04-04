@@ -15,7 +15,10 @@
       "episodios": " ",
       "classificacao": " ",
       "lancamento": " ",
-      "videos": []
+      "videos": [
+        "https://www.youtube.com/embed/Cb9F59uvA_0",
+        "https://www.youtube.com/embed/OatDU-PgJQE"
+      ]
     },
     {
       "titulo": "A Viagem de Chihiro",
@@ -32,7 +35,10 @@
       "episodios": " ",
       "classificacao": " ",
       "lancamento": " ",
-      "videos": ["https://www.youtube.com/embed/ByXuk9QqQkk"]
+      "videos": [
+        "https://www.youtube.com/embed/ByXuk9QqQkk",
+        "https://www.youtube.com/embed/SgZI655GgHk"
+      ]
     },
     {
       "titulo": "Solo Leveling",
@@ -49,8 +55,11 @@
       "episodios": " ",
       "classificacao": " ",
       "lancamento": " ",
-      "videos": ["https://www.youtube.com/embed/MWrsQmBIkhM", "https://www.youtube.com/embed/ujv2fLp3lU8"]
-    }, 
+      "videos": [
+        "https://www.youtube.com/embed/MWrsQmBIkhM",
+        "https://www.youtube.com/embed/ujv2fLp3lU8"
+      ]
+    },
     {
       "titulo": "Tower of God",
       "ano": "(2020)",
@@ -68,7 +77,10 @@
       "episodios": " ",
       "classificacao": " ",
       "lancamento": " ",
-      "videos": []
+      "videos": [
+        "https://www.youtube.com/embed/TcYz4v1Y9ko",
+        "https://www.youtube.com/embed/sVSJJV8FnB4"
+      ]
     },
     {
       "titulo": "Frieren e a Jornada para o Alem",
@@ -86,7 +98,10 @@
       "episodios": " ",
       "classificacao": " ",
       "lancamento": " ",
-      "videos": []
+      "videos": [
+        "https://www.youtube.com/embed/eXjbk-4ljgc",
+        "https://www.youtube.com/embed/jZE0spxy190"
+      ]
     },
     {
       "titulo": "SPY x FAMILY",
@@ -103,7 +118,10 @@
       "episodios": " ",
       "classificacao": " ",
       "lancamento": " ",
-      "videos": []
+      "videos": [
+        "https://www.youtube.com/embed/0CJr6AfE2rY",
+        "https://www.youtube.com/embed/b8Cb_hRmnTM"
+      ]
     },
     {
       "titulo": "Demon Slayer Kimetsu no Yaiba",
@@ -120,7 +138,10 @@
       "episodios": " ",
       "classificacao": " ",
       "lancamento": " ",
-      "videos": []
+      "videos": [
+        "https://www.youtube.com/embed/VQGCKyvzIM4",
+        "https://www.youtube.com/embed/YhrA6hjQbTw"
+      ]
     },
     {
       "titulo": "Ataque dos Titas",
@@ -137,7 +158,10 @@
       "episodios": " ",
       "classificacao": " ",
       "lancamento": " ",
-      "videos": []
+      "videos": [
+        "https://www.youtube.com/embed/6MRxT8kz30k",
+        "https://www.youtube.com/embed/7tvHg-Hv3W0"
+      ]
     },
     {
       "titulo": "Jujutsu Kaisen",
@@ -153,7 +177,10 @@
       "formato": "TV",
       "episodios": " ",
       "classificacao": " ",
-      "videos": []
+      "videos": [
+        "https://www.youtube.com/embed/9sLu3bUBuOg",
+        "https://www.youtube.com/embed/ynr6gnyu9NE"
+      ]
     },
     {
       "titulo": "Mushoku Tensei Jobless Reincarnation",
@@ -169,7 +196,10 @@
       "formato": "TV",
       "episodios": " ",
       "classificacao": " ",
-      "videos": []
+      "videos": [
+        "https://www.youtube.com/embed/t-debA4ZRtw",
+        "https://www.youtube.com/embed/wwKZYTsxIhk"
+      ]
     },
     {
       "titulo": "Steins;Gate",
@@ -187,7 +217,10 @@
       "episodios": " ",
       "classificacao": " ",
       "lancamento": " ",
-      "videos": []
+      "videos": [
+        "https://www.youtube.com/embed/Lyzc1OuCZ50",
+        "https://www.youtube.com/embed/kUkcQb-K3KU"
+      ]
     },
     {
       "titulo": "Psycho-Pass",
@@ -205,7 +238,10 @@
       "episodios": " ",
       "classificacao": " ",
       "lancamento": " ",
-      "videos": []
+      "videos": [
+        "https://www.youtube.com/embed/YzuJnyebc40",
+        "https://www.youtube.com/embed/I78cNQDuIr8"
+      ]
     },
     {
       "titulo": "Code Geass Lelouch of the Rebellion",
@@ -223,7 +259,10 @@
       "episodios": " ",
       "classificacao": " ",
       "lancamento": " ",
-      "videos": []
+      "videos": [
+        "https://www.youtube.com/embed/TvW8Z5fBl0E",
+        "https://www.youtube.com/embed/ulQGo6X7kFo"
+      ]
     },
     {
       "titulo": "Fullmetal Alchemist Brotherhood",
@@ -242,7 +281,10 @@
       "episodios": " ",
       "classificacao": " ",
       "lancamento": " ",
-      "videos": []
+      "videos": [
+        "https://www.youtube.com/embed/Kef3BsgI1Sk",
+        "https://www.youtube.com/embed/AYlksPeSXrs"
+      ]
     },
     {
       "titulo": "Akame ga Kill!",
@@ -259,7 +301,10 @@
       "episodios": " ",
       "classificacao": " ",
       "lancamento": " ",
-      "videos": []
+      "videos": [
+        "https://www.youtube.com/embed/mAzFWd5WqOg",
+        "https://www.youtube.com/embed/sCGWxQuSoDU"
+      ]
     },
     {
       "titulo": "DARLING in the FRANXX",
@@ -274,7 +319,10 @@
       "episodios": " ",
       "classificacao": " ",
       "lancamento": " ",
-      "videos": []
+      "videos": [
+        "https://www.youtube.com/embed/f_gUrAyZezc",
+        "https://www.youtube.com/embed/hxulibruNwg"
+      ]
     },
     {
       "titulo": "Sword Art Online",
@@ -291,7 +339,10 @@
       "episodios": " ",
       "classificacao": " ",
       "lancamento": " ",
-      "videos": []
+      "videos": [
+        "https://www.youtube.com/embed/naxFUEAIlkc",
+        "https://www.youtube.com/embed/6ohYYtxfDCg"
+      ]
     },
     {
       "titulo": "Yakusoku no Neverland",
@@ -311,7 +362,10 @@
       "episodios": " ",
       "classificacao": " ",
       "lancamento": " ",
-      "videos": []
+      "videos": [
+        "https://www.youtube.com/embed/48WkJZme5hY",
+        "https://www.youtube.com/embed/DXNXOsZqc28"
+      ]
     },
     {
       "titulo": "Shigatsu wa Kimi no Uso",
@@ -328,7 +382,10 @@
       "episodios": " ",
       "classificacao": " ",
       "lancamento": " ",
-      "videos": []
+      "videos": [
+        "https://www.youtube.com/embed/3aL0gDZtFbE",
+        "https://www.youtube.com/embed/aMJpI_fEsA4"
+      ]
     },
     {
       "titulo": "O Teu Nome",
@@ -345,7 +402,10 @@
       "episodios": " ",
       "classificacao": " ",
       "lancamento": " ",
-      "videos": []
+      "videos": [
+        "https://www.youtube.com/embed/27q1kdb3sNY",
+        "https://www.youtube.com/embed/soQXM3XVvIU"
+      ]
     },
     {
       "titulo": "A Princesa Mononoke",
@@ -362,7 +422,10 @@
       "episodios": " ",
       "classificacao": " ",
       "lancamento": " ",
-      "videos": []
+      "videos": [
+        "https://www.youtube.com/embed/4OiMOHRDs14",
+        "https://www.youtube.com/embed/YOuG8m2RqOs"
+      ]
     },
     {
       "titulo": "Uma Voz Silenciosa",
@@ -378,7 +441,10 @@
       "episodios": " ",
       "classificacao": " ",
       "lancamento": " ",
-      "videos": []
+      "videos": [
+        "https://www.youtube.com/embed/nfK6UgLra7g",
+        "https://www.youtube.com/embed/HgRLFTwN3P4"
+      ]
     },
     {
       "titulo": "As Asas do Vento",
@@ -396,7 +462,10 @@
       "episodios": " ",
       "classificacao": " ",
       "lancamento": " ",
-      "videos": []
+      "videos": [
+        "https://www.youtube.com/embed/YfSPHbB3KaE",
+        "https://www.youtube.com/embed/RzSpDgiF5y8"
+      ]
     },
     {
       "titulo": "O Castelo Andante",
@@ -413,7 +482,10 @@
       "episodios": " ",
       "classificacao": " ",
       "lancamento": " ",
-      "videos": []
+      "videos": [
+        "https://www.youtube.com/embed/PWhl-xGTraE",
+        "https://www.youtube.com/embed/iwROgK94zcM"
+      ]
     },
     {
       "titulo": "Akira",
@@ -430,7 +502,10 @@
       "episodios": " ",
       "classificacao": " ",
       "lancamento": " ",
-      "videos": []
+      "videos": [
+        "https://www.youtube.com/embed/0zKXoazRf-Y",
+        "https://www.youtube.com/embed/utwyNx7HM3Q"
+      ]
     },
     {
       "titulo": "Contos de Terramar",
@@ -447,7 +522,10 @@
       "episodios": " ",
       "classificacao": " ",
       "lancamento": " ",
-      "videos": []
+      "videos": [
+        "https://www.youtube.com/embed/8hxYx3Jq3kI",
+        "https://www.youtube.com/embed/Q6CEyfSg71A"
+      ]
     },
     {
       "titulo": "Ghost in the Shell Cidade Assombrada",
@@ -464,7 +542,157 @@
       "episodios": " ",
       "classificacao": " ",
       "lancamento": " ",
-      "videos": []
+      "videos": [
+        "https://www.youtube.com/embed/twK6wO_DOW4",
+        "https://www.youtube.com/embed/jPDi7iF3eCM"
+      ]
+    },
+    {
+      "titulo": "Hai to Gensou no Grimgar",
+      "ano": "(2016)",
+      "url": "https://www.themoviedb.org/tv/65369",
+      "genero": [
+        "Animação",
+        "Action & Adventure",
+        "Sci-Fi & Fantasy",
+        "Drama"
+      ],
+      "sinopse": "Por que estamos aqui? Por que fazemos isso? Antes de Haruhiro notar o que acontecera, foi cercado por trevas. Por que ele estava aqui? Onde ele estava? Até agora ele ainda não sabe. Aqueles ao seu redor estavam na mesma situação, ninguém se lembrava de nada além de seus nomes. E quando saíram das trevas, o mundo que os aguardava parecia algo saído de um jogo. Para sobreviver, Haruhiro forma uma aliança com os outros, aprende habilidades de luta e com soldado na força de reserva, dá seu primeiro passo ao mundo de Grimgar. O que o espera lá, ele não sabe. Esta história de aventura se levanta das cinzas.",
+      "img": "https://media.themoviedb.org/t/p/w300_and_h450_bestv2/vDs4SVtbEcklxseEoeTV5B5U3n.jpg",
+      "formato": "TV",
+      "episodios": " ",
+      "classificacao": " ",
+      "lancamento": " ",
+      "videos": ["https://www.youtube.com/embed/aR0UcWq_JrY",
+    "https://www.youtube.com/embed/yHCh8ffTZWM"]
+    },
+    {
+      "titulo": "Fate-stay night Unlimited Blade Works",
+      "ano": "(2014)",
+      "url": "https://www.themoviedb.org/tv/61415-fate-stay-night-unlimited-blade-works",
+      "genero": [
+        "Action & Adventure",
+        "Animação",
+        "Drama",
+        "Sci-Fi & Fantasy"
+      ],
+      "sinopse": "Nova adaptação da série Fate/stay night. Esta nova série seguirá a rota Unlimited Blade Works da respetiva visual novel.",
+      "img": "https://media.themoviedb.org/t/p/w300_and_h450_bestv2/3bI8db4tIPtgFY8mOqp3AB0YXGi.jpg",
+      "formato": "TV",
+      "episodios": " ",
+      "classificacao": " ",
+      "lancamento": " ",
+      "videos": ["https://www.youtube.com/embed/gDFWHD9cm-E",
+    "https://www.youtube.com/embed/1X8ZBVgairo"]
+    },
+    {
+      "titulo": "Fate-Zero",
+      "ano": "(2011)",
+      "url": "https://www.themoviedb.org/tv/45845-fate-zero",
+      "genero": [
+        "Action & Adventure",
+        "Animação",
+        "Sci-Fi & Fantasy"
+      ],
+      "sinopse": "A Guerra do Santo Graal é Uma batalha entre 7 magos (mestres) e seus epíritos heróicos (servos), cujo vencedor leva o lendário Santo Graal, que dizem possuir o poder de realizar milagres. Esta é a 4ª Guerra do Santo Graal. As três guerras anteriores acabaram sem ter um vencedor. Em busca de seus objectivos e ambições, os magos se reúnem em um lugar chamado Fuyuki. Eles farão qualquer coisa e cometerão qualquer atrocidade necessária para conseguir o Santo Graal. Todos, excepto um... Kotomine Kirei é um mago, mas não possui uma razão para lutar. Incapaz de se livrar do destino de batalhar, ele é arrastado para a guerra. Entretanto, um dos mestres rivais é um antigo inimigo, Enmiya Kiritsugu, um homem mais severo e impiedoso do que qualquer outro. Um homem que deseja os milagres oferecidos pelo Santo Graal.",
+      "img": "https://media.themoviedb.org/t/p/w300_and_h450_bestv2/chUbHBiMX7buj8TzOEIjHHPCJfF.jpg",
+      "formato": "TV",
+      "episodios": " ",
+      "classificacao": " ",
+      "lancamento": " ",
+      "videos": ["https://www.youtube.com/embed/n-7PFiut1HI",
+    "https://www.youtube.com/embed/A8D2db4PFN0"]
+    },
+    {
+      "titulo": "Hunter x Hunter",
+      "ano": "(2011)",
+      "url": "https://www.themoviedb.org/tv/46298-hunter-x-hunter",
+      "genero": [
+        "Animação",
+        "Action & Adventure",
+        "Sci-Fi & Fantasy"
+      ],
+      "sinopse": "Gon, um rapaz de 12 anos vive numa ilha e convive com a natureza. O seu pai deixa-o e quem cuida de Gon é a sua tia. A razão pela qual o pai de Gon o deixou foi para se tornar num Hunter, que é sinonimo de poder e riquezas em um novo mundo totalmente diferente. Gon cresce com o desejo de encontrar o seu pai, de se tornar num Hunter também, e assim um dia sai da ilha, começando assim uma grande jornada cheia de aventuras.",
+      "img": "https://media.themoviedb.org/t/p/w300_and_h450_bestv2/ucpgmUR1h5Te1BYegKItoPjOeF7.jpg",
+      "formato": "TV",
+      "episodios": " ",
+      "classificacao": " ",
+      "lancamento": " ",
+      "videos": ["https://www.youtube.com/embed/DbylrrZ6C_k",
+    "https://www.youtube.com/embed/d6kBeJjTGnY"]
+    },
+    {
+      "titulo": "Death Note",
+      "ano": "(2006)",
+      "url": "https://www.themoviedb.org/tv/13916-death-note",
+      "genero": [
+        "Animação",
+        "Mistério",
+        "Sci-Fi & Fantasy"
+      ],
+      "sinopse": "Light Yagami é um estudante brilhante que se encontra aborrecido. Um dia, encontra um Death Note, um caderno que pertence a um Shinigami (Deus da Morte). Esse caderno mortal tem o poder de matar qualquer um cujo nome seja nele escrito e, usando esse poder, Light decide criar um mundo perfeito, livre de crimes e pessoas maldosas. No entanto, à medida que os mais temidos criminosos aparecem mortos, a Interpol chama o lendário detective L para apanhar Light. Começa aí uma batalha.",
+      "img": "https://media.themoviedb.org/t/p/w300_and_h450_bestv2/tCZFfYTIwrR7n94J6G14Y4hAFU6.jpg",
+      "formato": "TV",
+      "episodios": " ",
+      "classificacao": " ",
+      "lancamento": " ",
+      "videos": ["https://www.youtube.com/embed/NlJZ-YgAt-c",
+    "https://www.youtube.com/embed/tJZtOrm-WPk"]
+    },
+    {
+      "titulo": "Sem Jogo Sem Vida",
+      "ano": "(2014)",
+      "url": "https://www.themoviedb.org/tv/60808-no-game-no-life",
+      "genero": [
+        "Animação",
+        "Sci-Fi & Fantasy",
+        "Action & Adventure",
+        "Comédia"
+      ],
+      "sinopse": "Os lendários irmãos entusiastas de jogos, Sora e Shiro, são transportados para um mundo em que a vida é uma série de jogos e a humanidade está à beira da extinção.",
+      "img": "https://media.themoviedb.org/t/p/w300_and_h450_bestv2/kN4BhRDbP3b1nuxpYC443jVLEh5.jpg",
+      "formato": "TV",
+      "episodios": " ",
+      "classificacao": " ",
+      "lancamento": " ",
+      "videos": ["https://www.youtube.com/embed/6CBp4qylX6I",
+    "https://www.youtube.com/embed/ETQUp-Omp-A"]
+    },
+    {
+      "titulo": "Naruto",
+      "ano": "(2002)",
+      "url": "https://www.themoviedb.org/tv/46260",
+      "genero": [
+        "Animação",
+        "Action & Adventure",
+        "Sci-Fi & Fantasy"
+      ],
+      "sinopse": "Guiado pelo espírito demoníaco que existe dentro dele, o órfão Naruto aprende a controlar os seus poderes como ninja, nesta série animé de ação.",
+      "img": "https://media.themoviedb.org/t/p/w300_and_h450_bestv2/aS0bHcgKqX9PepPyGiNi2qTC7yt.jpg",
+      "formato": "TV",
+      "episodios": " ",
+      "classificacao": " ",
+      "lancamento": " ",
+      "videos": ["https://www.youtube.com/embed/QczGoCmX-pI",
+    "https://www.youtube.com/embed/rEYhAKi-j6Y"]
+    },
+    {
+      "titulo": "Dragon Ball Z",
+      "ano": "(1989)",
+      "url": "https://www.themoviedb.org/tv/12971",
+      "genero": [
+        "Animação",
+        "Sci-Fi & Fantasy",
+        "Action & Adventure"
+      ],
+      "sinopse": "Dragon Ball Z é a segunda parte do Anime Dragon Ball. Essa saga conta a história de Goku e seus amigos já adultos, amadurecidos e mais fortes, enfrentando inimigos como Vegeta, um Saiyajin da mesma raça que Goku; Freeza, um Chanjeling que escravizou e humilhou os Saiyajins durante muitos anos; Cell um androide criado pelo Doutor Maki Geroe e Majin Buu.",
+      "img": "https://media.themoviedb.org/t/p/w300_and_h450_bestv2/dBsDWUcdfbuZwglgyeeQ9ChRoS4.jpg",
+      "formato": "TV",
+      "episodios": " ",
+      "classificacao": " ",
+      "lancamento": " ",
+      "videos": ["https://www.youtube.com/embed/sxufB6DxXk0",
+    "https://www.youtube.com/embed/yQJM963be_I"]
     }
   ]
 }

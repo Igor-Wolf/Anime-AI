@@ -31,7 +31,16 @@ function databaseAnimes() {
         "https://www.themoviedb.org/movie/4935",
         "https://www.themoviedb.org/movie/149-akira",
         "https://www.themoviedb.org/movie/37933",
-        "https://www.themoviedb.org/movie/9323-ghost-in-the-shell"
+        "https://www.themoviedb.org/movie/9323-ghost-in-the-shell",
+
+        "https://www.themoviedb.org/tv/65369",
+        "https://www.themoviedb.org/tv/61415-fate-stay-night-unlimited-blade-works",
+        "https://www.themoviedb.org/tv/45845-fate-zero",
+        "https://www.themoviedb.org/tv/46298-hunter-x-hunter",
+        "https://www.themoviedb.org/tv/13916-death-note",
+        "https://www.themoviedb.org/tv/60808-no-game-no-life",
+        "https://www.themoviedb.org/tv/46260",
+        "https://www.themoviedb.org/tv/12971"
 
 
 

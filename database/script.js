@@ -21,6 +21,8 @@ async function buscar(db) {
         // Converte a resposta para JSON
         const data = await response.json();
         storage = data
+        alert("converteu json")
+
 
         for (const element of db) {
             // Realiza a busca para cada elemento do banco de dados
@@ -43,10 +45,10 @@ async function scraping(link, data) {
     try {
         // Limpa a lista 'a' antes de cada scraping
         a = [];
-
+        alert("entrou no scraping")
         // Realiza o scraping da página
         const response = await fetch(`https://cors-anywhere.herokuapp.com/${link}`);
-
+        alert("fez fetch")
         if (!response.ok) {
             throw new Error('Erro ao buscar página da web');
         }
@@ -54,6 +56,7 @@ async function scraping(link, data) {
         const html = await response.text();
         const parser = new DOMParser();
         const doc = parser.parseFromString(html, 'text/html');
+        alert("converteu em string")
 
         // Aqui você pode fazer o scraping dos dados da página e adicionar ao objeto 'data'
         // Extraindo o título da página
@@ -66,6 +69,7 @@ async function scraping(link, data) {
             a.push(element.textContent.trim())
         });
 
+        
 
         // Extraindo o ano  da página
         const ano = doc.querySelector('div.title.ott_true span.tag.release_date');
@@ -103,6 +107,7 @@ async function scraping(link, data) {
         // const classifica = doc.querySelector('div.title.ott_true div.facts span.certification');
         // alert(classifica.textContent.trim())
 
+        alert("extraiu dados do fetch")
 
         const novoAnime = {
             "titulo": title.textContent.trim(),
@@ -117,6 +122,7 @@ async function scraping(link, data) {
             "lancamento": " ",
             "videos": [],
         };
+        alert("declarou objeto")
 
         storage.animes.push(novoAnime);
         alert(JSON.stringify(storage, null, 2));
