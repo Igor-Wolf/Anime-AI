@@ -1,4 +1,4 @@
-*{
+* {
 
     margin: 0;
     padding: 0;
@@ -7,15 +7,16 @@
     scrollbar-color: var(--cinzento) transparent;
     list-style: none;
 }
-body{
+
+body {
 
     display: flex;
     flex-direction: column;
     min-height: 100vh;
-    
+
 }
 
-.main{
+.main {
 
     display: flex;
     flex-direction: column;
@@ -27,7 +28,7 @@ body{
 
 }
 
-.externa{
+.externa {
 
     display: flex;
     flex-direction: row;
@@ -39,23 +40,23 @@ body{
     color: black;
     border-radius: 1rem;
     margin: 1rem;
-    
-    
+
+
 }
 
-.boxImage{
+.boxImage {
 
     border-color: black;
 }
 
-.imagem{
+.imagem {
 
     width: 300px;
     height: 450px;
     border: 1px solid black;
 }
 
-.textContent{
+.textContent {
     display: flex;
     flex-direction: column;
     border: 1px solid black;
@@ -67,13 +68,13 @@ body{
 
 }
 
-.geral{
+.geral {
 
     display: flex;
     flex-direction: column;
 }
 
-footer{
+footer {
 
     position: relative;
     left: 0;
@@ -81,32 +82,32 @@ footer{
     width: 100vw;
 }
 
-#videos{
+#videos {
     display: flex;
     padding: .5rem;
     gap: 1rem;
     flex-wrap: wrap;
 }
 
-.my-video{
+.my-video {
 
     margin: .5rem;
-    
+
 }
 
-.my-video .ytp-large-play-button{
+.my-video .ytp-large-play-button {
 
     display: none;
-    
+
 }
 
 
-.ytp-show-cards-title{
+.ytp-show-cards-title {
 
     display: none;
 }
 
-.ytp-chrome-top{
+.ytp-chrome-top {
 
     display: none;
 }
@@ -115,16 +116,16 @@ footer{
     display: none !important;
 }
 
-.animesCover #videos{
+.animesCover #videos {
 
     display: flex;
-    flex-wrap:wrap;
+    flex-wrap: wrap;
     align-items: center;
-    justify-content:center;
+    justify-content: center;
     gap: 1.5rem;
 }
 
-.video-overlay{
+.video-overlay {
 
     border: 1px solid black;
     display: flex;
@@ -153,7 +154,7 @@ footer{
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 }
 
-.realizarBusca{
+.realizarBusca {
 
     display: flex;
     flex-direction: column;
@@ -163,16 +164,16 @@ footer{
     padding: 1rem;
 }
 
-.textoChecar{
+.textoChecar {
 
     width: 50vw;
     min-width: 250px;
     height: 2rem;
     font-size: 1rem;
-    
+
 }
 
-.checar{
+.checar {
 
     background-color: rgba(255, 255, 255, 0.5);
     border: none;
@@ -204,7 +205,7 @@ footer{
 
 @media screen and (max-width:800px) {
 
-    #videos{
+    #videos {
 
         align-items: center;
         justify-content: center;
@@ -213,58 +214,68 @@ footer{
 
 @media screen and (max-width:700px) {
 
-    .externa{
+    .externa {
 
         flex-direction: column;
     }
 
-    footer{
+    footer {
 
         position: relative;
     }
 
-    .video-overlay, .img-geral{
-            
-        width: 80vw;
-        height: auto;
-    }
-
-    
-
-    .imagem{
+    .video-overlay,
+    .img-geral {
 
         width: 80vw;
         height: auto;
     }
 
-    .my-video{
-        
+
+
+    .imagem {
+
+        width: 80vw;
+        height: auto;
+    }
+
+    .my-video {
+
         aspect-ratio: 16 / 9;
-     /* Ou */
-         
-     }
+        /* Ou */
+
+    }
+    
+    .primeiro{
+
+        font-size: 1.8rem ;
+        text-align: center;
+        
+    }
+
 
     @media screen and (max-width:300) {
 
 
-        #videos{
+        #videos {
 
             box-sizing: border-box;
         }
 
-        .my-video{
-        
-            width: 100vw;
-         /* Ou */
-             
-         }
+        .my-video {
 
-        
-        
+            width: 100vw;
+            /* Ou */
+
+        }
+
+
+
+
 
     }
 
-    
+
 
 
 }
