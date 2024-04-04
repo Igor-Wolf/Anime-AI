@@ -26,7 +26,7 @@ function criarCarrosselAnimes() {
                             <i class="fas fa-play"></i>
                             ASSITIR AGORA
                         </button>
-                        <button role="button" class="botao" onclick="window.location.href = 'Solo_Leveling.html';">
+                        <button role="button" class="botao" onclick="window.location.href = 'Solo-Leveling.html';">
                             <i class="fas fa-info-circle"></i>
                             MAIS INFORMAÇÕES
                         </button>

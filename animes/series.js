@@ -17,7 +17,7 @@ async function injetar() {
         data.animes.sort((a, b) => a.titulo.localeCompare(b.titulo));
 
         // Verifica se o anime já está na lista
-        const title = "Movie";
+        const title = "TV";
 
         for (const anime of data.animes) {
             if (anime.formato === title) {
@@ -80,9 +80,10 @@ async function injetar() {
 }
 
 function mudarPag(pag) {
-    let auxi = pag.replace(/\s+/g, '-'); 
-    window.location.href = `${auxi}.html`;
     
+    let auxi = pag.replace(/\s+/g, '-'); 
+    
+    window.location.href = `${auxi}.html`;
 }
 
 injetar();

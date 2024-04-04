@@ -1,8 +1,12 @@
-var container = document.getElementById("videos");
 
-async function injetar() {
+var container = document.getElementById("videos");
+var botao = document.querySelector(".checar");
+var texto = document.querySelector(".textoChecar")
+var auxi = localStorage.getItem('pesquisa')
+
+async function injetar(usuario) {
     try {
-        // Realiza a busca da página de dados
+
         const response = await fetch('dados.json');
 
         // Verifica se a resposta é bem-sucedida
@@ -17,11 +21,12 @@ async function injetar() {
         data.animes.sort((a, b) => a.titulo.localeCompare(b.titulo));
 
         // Verifica se o anime já está na lista
-        const title = "Movie";
+        const title = usuario.toLowerCase();
+        
 
         for (const anime of data.animes) {
-            if (anime.formato === title) {
-                console.log("Anime encontrado:", anime);
+            if (anime.titulo.toLowerCase().includes(title)) {
+                
 
                 // Verifica se anime.img é uma string
                 if (typeof anime.img === 'string') {
@@ -80,25 +85,33 @@ async function injetar() {
 }
 
 function mudarPag(pag) {
-    let auxi = pag.replace(/\s+/g, '-'); 
+    let auxi = pag.replace(/\s+/g, '-');
     window.location.href = `${auxi}.html`;
-    
+
 }
 
-injetar();
 
+
+
+botao.addEventListener('click', function () {
+    localStorage.setItem('pesquisa', texto.value);
+    location.reload();
+    
+});
+
+injetar(auxi)
 
 //--------------------------------------------------------------------------------------------- video popup carrossel
 function closePopup(fechar) {
     var popup = document.getElementById(fechar);
-   
+
     popup.style.display = "none";
     iframe = document.querySelector(`#${fechar} iframe`)
     pauseVideo(iframe);
     tela = document.getElementById("filtro")
 
-    tela.style.display ="none"
-    
+    tela.style.display = "none"
+
 }
 
 var i = "";
@@ -108,8 +121,8 @@ function openCapa(pop) {
     popup.style.display = "flex";
     tela = document.getElementById("filtro")
 
-    tela.style.display ="flex"
-    
+    tela.style.display = "flex"
+
 }
 
 var iframe = document.querySelector('iframe');
@@ -119,7 +132,7 @@ function pauseVideo(video) {
     i = video.src;
     video.src = "";
     video.src = i;
-    
+
 }
 
 

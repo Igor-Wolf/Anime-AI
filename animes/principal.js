@@ -6,7 +6,7 @@ let gender = document.querySelector(".genero")
 let resumo = document.querySelector(".sinopse")
 let docTitle = document.querySelector("title")
 let forma = document.querySelector(".formato")
-let first = document.querySelector(".titulo")
+let first = document.querySelector(".primeiro")
 let epi = document.querySelector(".epi")
 var container = document.getElementById("videos");
 
@@ -42,19 +42,21 @@ async function injetar() {
 
         // Converte a resposta para JSON
         const data = await response.json();
-        console.log("Data carregada:", data);
+        
 
         // Verifica se o anime já está na lista
         const title = titulopag.innerHTML;
-        console.log("Título extraído do HTML:", title);
-
+        
+        
         for (const anime of data.animes) {
             console.log("Comparando com:", anime.titulo);
             if (anime.titulo === title) {
                 console.log("Anime encontrado:", anime);
+                
                 // Se o anime estiver na lista, realizar as operações necessárias
                 titulopag.innerHTML = anime.titulo;
-                first.innerHTML = `${anime.titulo}`;
+                first.innerHTML = titulopag.innerHTML;
+                
                 year.innerHTML = `<strong>Ano</strong>: ${anime.ano}`;
                 classification.innerHTML = `<strong>Classificação indicativa</strong>: ${anime.classificacao}`;
                 gender.innerHTML = `<strong>Gênero:</strong> ${anime.genero}`;
@@ -110,6 +112,7 @@ async function injetar() {
                     
                     // Adiciona o contêiner ao contêiner principal
                     container.appendChild(videoContainer);
+                    
                 });
 
                 
