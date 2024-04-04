@@ -51,7 +51,7 @@ function criarCarrosselAnimes() {
                             <i class="fas fa-play"></i>
                             ASSITIR AGORA
                         </button>
-                        <button role="button" class="botao" onclick="nadaAcontece()">
+                        <button role="button" class="botao" onclick="window.location.href = 'Tower-of-God.html'">
                             <i class="fas fa-info-circle"></i>
                             MAIS INFORMAÇÕES
                         </button>
@@ -75,7 +75,7 @@ function criarCarrosselAnimes() {
                             <i class="fas fa-play"></i>
                             ASSITIR AGORA
                         </button>
-                        <button role="button" class="botao" onclick="nadaAcontece()">
+                        <button role="button" class="botao" onclick="window.location.href = 'Chainsaw-Man.html'">
                             <i class="fas fa-info-circle"></i>
                             MAIS INFORMAÇÕES
                         </button>
@@ -100,7 +100,7 @@ function criarCarrosselAnimes() {
                             <i class="fas fa-play"></i>
                             ASSITIR AGORA
                         </button>
-                        <button role="button" class="botao" onclick="nadaAcontece()">
+                        <button role="button" class="botao" onclick="window.location.href = 'Frieren-e-a-Jornada-para-o-Alem.html'">
                             <i class="fas fa-info-circle"></i>
                             MAIS INFORMAÇÕES
                         </button>
