@@ -27,7 +27,9 @@ async function injetar() {
                 if (typeof anime.img === 'string') {
                     // Cria um elemento <div> para conter o overlay e a imagem
                     var videoContainer = document.createElement("div");
-                    videoContainer.style.position = "relative"; // Garante que a posição do overlay seja relativa a este contêiner
+                    videoContainer.style.position = "relative";
+                    videoContainer.classList.add("img-redimencionar")
+                    // Garante que a posição do overlay seja relativa a este contêiner
 
                     // Cria um elemento <div> para o overlay
                     var overlay = document.createElement("div");
@@ -50,8 +52,8 @@ async function injetar() {
                     var imgElement = document.createElement("img");
 
                     // Configura os atributos da imagem
-                    imgElement.setAttribute("width", "300");
-                    imgElement.setAttribute("height", "450");
+                    //imgElement.setAttribute("width", "300");
+                    //imgElement.setAttribute("height", "450");
                     imgElement.setAttribute("src", anime.img); // Usa o URL da imagem
                     imgElement.setAttribute("title", "Embedded Video");
 
@@ -85,7 +87,17 @@ injetar();
 
 
 //--------------------------------------------------------------------------------------------- video popup carrossel
+function closePopup(fechar) {
+    var popup = document.getElementById(fechar);
+   
+    popup.style.display = "none";
+    iframe = document.querySelector(`#${fechar} iframe`)
+    pauseVideo(iframe);
+    tela = document.getElementById("filtro")
 
+    tela.style.display ="none"
+    
+}
 
 var i = "";
 

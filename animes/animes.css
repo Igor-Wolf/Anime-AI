@@ -127,8 +127,25 @@ footer{
 .video-overlay{
 
     border: 1px solid black;
-    display: flexbox;
+    display: flex;
 }
+
+.video-overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    cursor: pointer;
+    z-index: 1;
+}
+
+/* Estilo padrão para a img-geral */
+.img-geral {
+    width: 100%;
+    height: auto;
+}
+
 
 
 
@@ -151,6 +168,26 @@ footer{
     footer{
 
         position: relative;
+    }
+
+    .video-overlay, .img-geral{
+            
+        width: 80vw;
+    }
+
+    @media screen and (max-width:300) {
+
+
+        #videos{
+
+            box-sizing: border-box;
+        }
+
+        
+
+        
+        
+
     }
 
     
