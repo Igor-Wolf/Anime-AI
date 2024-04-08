@@ -210,6 +210,7 @@ footer {
     border-top: .5px solid var(--cinzento);
     font-size: .8rem;
     color: #aaaaaadc;
+    width: auto;
 }
 
 footer p {
