@@ -28,6 +28,10 @@ body {
 
 }
 
+a{
+    text-decoration: none;
+}
+
 header {
 
     display: flex;
@@ -228,6 +232,8 @@ footer p {
     display: flex;
     align-items: center;
     background-color: #141414;
+    
+    
 }
 
 .nav--mobile {
@@ -238,6 +244,7 @@ footer p {
     justify-content: space-between;
     border-top: 1px solid var(--primary-border-color);
     z-index: 5000;
+   
 
 }
 
@@ -267,10 +274,10 @@ footer p {
     font-size: 1.5rem;
 }
 
-.menu__text {
+span.menu__text {
 
     font-size: .75rem;
-    text-transform: uppercase;
+    text-transform: uppercase;    
     
 }
 
