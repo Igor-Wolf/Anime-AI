@@ -9,6 +9,7 @@ let forma = document.querySelector(".formato")
 let first = document.querySelector(".primeiro")
 let epi = document.querySelector(".epi")
 var container = document.getElementById("videos");
+let strGender = "";
 
 
 function realizar() {
@@ -42,41 +43,53 @@ async function injetar() {
 
         // Converte a resposta para JSON
         const data = await response.json();
-        
+
 
         // Verifica se o anime já está na lista
         const title = titulopag.innerHTML;
-        
-        
+
+
         for (const anime of data.animes) {
             console.log("Comparando com:", anime.titulo);
             if (anime.titulo === title) {
                 console.log("Anime encontrado:", anime);
-                
+
                 // Se o anime estiver na lista, realizar as operações necessárias
+
+                anime.genero.forEach((element, index) => {
+
+                    if (index === anime.genero.length - 1) {
+
+                        strGender += element
+                    }
+                    else {
+                        strGender += `${element}, `
+                    }
+                });
+
+
                 titulopag.innerHTML = anime.titulo;
                 first.innerHTML = titulopag.innerHTML;
-                
                 year.innerHTML = `<strong>Ano</strong>: ${anime.ano}`;
                 classification.innerHTML = `<strong>Classificação indicativa</strong>: ${anime.classificacao}`;
-                gender.innerHTML = `<strong>Gênero:</strong> ${anime.genero}`;
+                gender.innerHTML = `<strong>Gênero:</strong> ${strGender}`;
                 resumo.innerHTML = `<strong>Sinopse:</strong> ${anime.sinopse}`;
                 forma.innerHTML = `<strong>Formato:</strong> ${anime.formato}`;
                 epi.innerHTML = `<strong>Episódios:</strong> ${anime.episodios}`
                 img.src = anime.img;
 
 
-                anime.videos.forEach(function(caminho, index) {
+                anime.videos.forEach(function (caminho, index) {
                     // Constrói o URL do vídeo com as opções para desativar o autoplay e ocultar informações
                     var videoUrl = caminho + "?autoplay=0&showinfo=0";
-                    
+
                     // Cria um elemento <div> para conter o overlay e o vídeo
                     var videoContainer = document.createElement("div");
                     videoContainer.style.position = "relative"; // Garante que a posição do overlay seja relativa a este contêiner
-                    
+
                     // Cria um elemento <div> para o overlay
                     var overlay = document.createElement("div");
-                    
+
                     // Adiciona classes e estilos CSS para o overlay
                     overlay.classList.add("video-overlay");
                     overlay.style.position = "absolute";
@@ -86,36 +99,36 @@ async function injetar() {
                     overlay.style.height = "100%";
                     overlay.style.cursor = "pointer"; // Altera o cursor para indicar que é clicável
                     overlay.style.zIndex = "1"; // Garante que o overlay esteja sobre o iframe
-                    
+
                     // Adiciona um atributo onclick para chamar a função openPopup
                     overlay.setAttribute("onclick", "openPopup('video-" + index + "')");
-                    
+
                     // Cria um elemento <iframe> para o vídeo
                     var videoElement = document.createElement("iframe");
-                    
+
                     // Configura os atributos do vídeo
                     videoElement.setAttribute("width", "350");
                     videoElement.setAttribute("height", "200");
                     videoElement.setAttribute("src", videoUrl); // Usa o URL construído
                     videoElement.setAttribute("title", "Embedded Video");
                     videoElement.setAttribute("allowfullscreen", "");
-                    
+
                     // Adiciona um ID único para cada elemento
                     videoElement.setAttribute("id", "video-" + index);
-                    
+
                     // Adiciona uma classe para estilização ou outras operações
                     videoElement.classList.add("my-video");
-                    
+
                     // Adiciona o overlay e o vídeo ao contêiner
                     videoContainer.appendChild(overlay);
                     videoContainer.appendChild(videoElement);
-                    
+
                     // Adiciona o contêiner ao contêiner principal
                     container.appendChild(videoContainer);
-                    
+
                 });
 
-                
+
                 return; // Encerra o loop quando o anime é encontrado
             }
         }
@@ -135,26 +148,26 @@ var i = "";
 
 function openPopup(pop) {
     var popup = document.getElementById("popup0");
-    popup.style.display = "flex";    
+    popup.style.display = "flex";
     var troca = document.getElementById("trocar")
-    var novo = document.getElementById(pop)  
+    var novo = document.getElementById(pop)
     troca.setAttribute("src", novo.src);
     tela = document.getElementById("filtro")
 
-    tela.style.display ="flex"
-    
+    tela.style.display = "flex"
+
 }
 
 function closePopup(fechar) {
     var popup = document.getElementById(fechar);
-   
+
     popup.style.display = "none";
     iframe = document.querySelector(`#${fechar} iframe`)
     pauseVideo(iframe);
     tela = document.getElementById("filtro")
 
-    tela.style.display ="none"
-    
+    tela.style.display = "none"
+
 }
 
 var iframe = document.querySelector('iframe');
@@ -164,7 +177,7 @@ function pauseVideo(video) {
     i = video.src;
     video.src = "";
     video.src = i;
-    
+
 }
 
 
@@ -178,8 +191,8 @@ function openCapa(pop) {
     popup.style.display = "flex";
     tela = document.getElementById("filtro")
 
-    tela.style.display ="flex"
-    
+    tela.style.display = "flex"
+
 }
 
 var iframe = document.querySelector('iframe');
@@ -189,7 +202,7 @@ function pauseVideo(video) {
     i = video.src;
     video.src = "";
     video.src = i;
-    
+
 }
 
 
