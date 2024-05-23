@@ -23,11 +23,11 @@ function criarCarrosselAnimes() {
                     <div class="botoes">
 
                         <button role="button" class="botao" onclick="openCapa('popup1')">
-                            <i class="fas fa-play"></i>
+                            <i class="bi bi-play-circle"></i>
                             ASSITIR AGORA
                         </button>
                         <button role="button" class="botao" onclick="window.location.href = 'Solo-Leveling.html';">
-                            <i class="fas fa-info-circle"></i>
+                        <i class="bi bi-info-circle"></i>
                             MAIS INFORMAÇÕES
                         </button>
                     </div>
@@ -48,11 +48,11 @@ function criarCarrosselAnimes() {
                     </p>
                     <div class="botoes">
                         <button role="button" class="botao" onclick="openCapa('popup2')">
-                            <i class="fas fa-play"></i>
+                        <i class="bi bi-play-circle"></i>
                             ASSITIR AGORA
                         </button>
                         <button role="button" class="botao" onclick="window.location.href = 'Tower-of-God.html'">
-                            <i class="fas fa-info-circle"></i>
+                        <i class="bi bi-info-circle"></i>
                             MAIS INFORMAÇÕES
                         </button>
                     </div>
@@ -72,11 +72,11 @@ function criarCarrosselAnimes() {
                     </p>
                     <div class="botoes">
                         <button role="button" class="botao" onclick="openCapa('popup3')">
-                            <i class="fas fa-play"></i>
+                            <i class="bi bi-play-circle"></i>
                             ASSITIR AGORA
                         </button>
                         <button role="button" class="botao" onclick="window.location.href = 'Chainsaw-Man.html'">
-                            <i class="fas fa-info-circle"></i>
+                            <i class="bi bi-info-circle"></i>
                             MAIS INFORMAÇÕES
                         </button>
                     </div>
@@ -97,11 +97,11 @@ function criarCarrosselAnimes() {
                     </p>
                     <div class="botoes">
                         <button role="button" class="botao" onclick="openCapa('popup4')">
-                            <i class="fas fa-play"></i>
+                            <i class="bi bi-play-circle"></i>
                             ASSITIR AGORA
                         </button>
                         <button role="button" class="botao" onclick="window.location.href = 'Frieren-e-a-Jornada-para-o-Alem.html'">
-                            <i class="fas fa-info-circle"></i>
+                            <i class="bi bi-info-circle"></i>
                             MAIS INFORMAÇÕES
                         </button>
                     </div>
