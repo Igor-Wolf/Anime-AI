@@ -1,9 +1,16 @@
-# Anime AI  v. 2.0
+# Anime AI v. 2.0
 
-Esse projeto tem por finalidade desenvolver o Front-End de um site de streaming com temática de animes. A versão 0.5 foi desenvolvida juntamente com o professor da DIO, já essa versão foram adicionadas pequenas alterações. Os testes foram ralizados no navegador Mozilla Firefox e Google Chrome através do Live Server do VS Code.
+Este projeto tem como objetivo desenvolver o front-end de um site de streaming com foco em animes. A versão 0.5 foi inicialmente criada em colaboração com o professor da DIO, e a versão atual inclui pequenas alterações e melhorias.
+
+## Testes Realizados
+
+Os testes foram realizados nos navegadores Mozilla Firefox e Google Chrome, utilizando o Live Server do VS Code para simular o ambiente de desenvolvimento.
+
+## Organização dos Arquivos
 
 ![Organização dos Arquivos](https://github.com/Igor-Wolf/Anime-AI/blob/main/demo.png?raw=true)
 
-O site pode ser conferido [AQUI](https://igor-wolf.github.io/Anime-AI/)
+## Acesso ao Site
 
+O site completo pode ser acessado [AQUI](https://igor-wolf.github.io/Anime-AI/).
 

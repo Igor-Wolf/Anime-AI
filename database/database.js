@@ -40,7 +40,18 @@ function databaseAnimes() {
         "https://www.themoviedb.org/tv/13916-death-note",
         "https://www.themoviedb.org/tv/60808-no-game-no-life",
         "https://www.themoviedb.org/tv/46260",
-        "https://www.themoviedb.org/tv/12971"
+        "https://www.themoviedb.org/tv/12971",
+
+        "https://www.themoviedb.org/tv/37854",
+        "https://www.themoviedb.org/tv/45950-high-school-dxd",
+        "https://www.themoviedb.org/tv/56998-gakuen-mokushiroku-high-school-of-the-dead",
+        "https://www.themoviedb.org/tv/83103",
+        "https://www.themoviedb.org/tv/61970-ben-to",
+        "https://www.themoviedb.org/tv/82591",
+        "https://www.themoviedb.org/tv/96316",
+        "https://www.themoviedb.org/tv/93019-ore-wo-suki-na-no-wa-omae-dake-ka-yo",
+        "https://www.themoviedb.org/tv/62640-nisekoi",
+        "https://www.themoviedb.org/tv/62742-sankarea-undying-love"
 
 
 

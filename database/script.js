@@ -1,13 +1,12 @@
 const paragrafo = document.querySelector("p")
 let a = [];
+let titulos = []
+let conextion = false
 
 let sotage;
 
-
-
-
 async function buscar(db) {
-    
+
 
     try {
         // Realiza a busca da página de dados
@@ -32,9 +31,9 @@ async function buscar(db) {
                 await scraping(link, data);
             }
         }
-        
+
         // Verifica se o anime já está na lista
-        
+
     } catch (error) {
         console.error('Erro ao buscar anime:', error);
         return null; // Retorna null em caso de erro
@@ -69,7 +68,7 @@ async function scraping(link, data) {
             a.push(element.textContent.trim())
         });
 
-        
+
 
         // Extraindo o ano  da página
         const ano = doc.querySelector('div.title.ott_true span.tag.release_date');
@@ -123,11 +122,12 @@ async function scraping(link, data) {
             "videos": [],
         };
         alert("declarou objeto")
+        titulos.push(novoAnime.titulo)
 
         storage.animes.push(novoAnime);
         alert(JSON.stringify(storage, null, 2));
+        conextion = true
 
-        
     } catch (error) {
         console.error('Erro ao fazer scraping:', error);
         throw error; // Propaga o erro para ser tratado no nível superior
@@ -143,27 +143,46 @@ function save(data) {
             console.error('Erro ao converter dados para JSON');
             return;
         }
+        if (conextion) {
+            // Cria um novo Blob com a string JSON
+            const blob = new Blob([jsonString], { type: 'application/json' });
 
-        // Cria um novo Blob com a string JSON
-        const blob = new Blob([jsonString], { type: 'application/json' });
+            // Usa a função saveAs do FileSaver.js para salvar o Blob como um arquivo
+            saveAs(blob, 'dados.json');
 
-        // Usa a função saveAs do FileSaver.js para salvar o Blob como um arquivo
-        saveAs(blob, 'dados.json');
+            saveTitles();
+        }
+
     } catch (error) {
         console.error('Erro ao salvar dados:', error);
+    }
+}
+
+function saveTitles() {
+    try {
+        // Conteúdo do arquivo titles.py
+        const content = `titles = ${JSON.stringify(titulos, null, 2)}\n`;
+
+        // Cria um novo Blob com o conteúdo de titles.py
+        const blob = new Blob([content], { type: 'text/plain' });
+
+        // Usa a função saveAs do FileSaver.js para salvar o Blob como um arquivo
+        saveAs(blob, 'title.py');
+    } catch (error) {
+        console.error('Erro ao salvar title.py:', error);
     }
 }
 
 async function processarBusca(db) {
     try {
         let data = { animes: [] };
-        
+
 
         await buscar(db);
         // Após todas as buscas serem concluídas, chama a função 'save'
         paragrafo.innerHTML = "<pre>" + JSON.stringify(storage, null, 2) + "</pre>";
         save(storage);
-        
+
 
     } catch (error) {
         console.error('Erro ao processar busca:', error);

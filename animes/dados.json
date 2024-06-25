@@ -563,8 +563,10 @@
       "episodios": " ",
       "classificacao": " ",
       "lancamento": " ",
-      "videos": ["https://www.youtube.com/embed/aR0UcWq_JrY",
-    "https://www.youtube.com/embed/yHCh8ffTZWM"]
+      "videos": [
+        "https://www.youtube.com/embed/aR0UcWq_JrY",
+        "https://www.youtube.com/embed/yHCh8ffTZWM"
+      ]
     },
     {
       "titulo": "Fate-stay night Unlimited Blade Works",
@@ -582,8 +584,10 @@
       "episodios": " ",
       "classificacao": " ",
       "lancamento": " ",
-      "videos": ["https://www.youtube.com/embed/gDFWHD9cm-E",
-    "https://www.youtube.com/embed/1X8ZBVgairo"]
+      "videos": [
+        "https://www.youtube.com/embed/gDFWHD9cm-E",
+        "https://www.youtube.com/embed/1X8ZBVgairo"
+      ]
     },
     {
       "titulo": "Fate-Zero",
@@ -600,8 +604,10 @@
       "episodios": " ",
       "classificacao": " ",
       "lancamento": " ",
-      "videos": ["https://www.youtube.com/embed/n-7PFiut1HI",
-    "https://www.youtube.com/embed/A8D2db4PFN0"]
+      "videos": [
+        "https://www.youtube.com/embed/n-7PFiut1HI",
+        "https://www.youtube.com/embed/A8D2db4PFN0"
+      ]
     },
     {
       "titulo": "Hunter x Hunter",
@@ -618,8 +624,10 @@
       "episodios": " ",
       "classificacao": " ",
       "lancamento": " ",
-      "videos": ["https://www.youtube.com/embed/DbylrrZ6C_k",
-    "https://www.youtube.com/embed/d6kBeJjTGnY"]
+      "videos": [
+        "https://www.youtube.com/embed/DbylrrZ6C_k",
+        "https://www.youtube.com/embed/d6kBeJjTGnY"
+      ]
     },
     {
       "titulo": "Death Note",
@@ -636,8 +644,10 @@
       "episodios": " ",
       "classificacao": " ",
       "lancamento": " ",
-      "videos": ["https://www.youtube.com/embed/NlJZ-YgAt-c",
-    "https://www.youtube.com/embed/tJZtOrm-WPk"]
+      "videos": [
+        "https://www.youtube.com/embed/NlJZ-YgAt-c",
+        "https://www.youtube.com/embed/tJZtOrm-WPk"
+      ]
     },
     {
       "titulo": "Sem Jogo Sem Vida",
@@ -655,8 +665,10 @@
       "episodios": " ",
       "classificacao": " ",
       "lancamento": " ",
-      "videos": ["https://www.youtube.com/embed/6CBp4qylX6I",
-    "https://www.youtube.com/embed/ETQUp-Omp-A"]
+      "videos": [
+        "https://www.youtube.com/embed/6CBp4qylX6I",
+        "https://www.youtube.com/embed/ETQUp-Omp-A"
+      ]
     },
     {
       "titulo": "Naruto",
@@ -673,8 +685,10 @@
       "episodios": " ",
       "classificacao": " ",
       "lancamento": " ",
-      "videos": ["https://www.youtube.com/embed/QczGoCmX-pI",
-    "https://www.youtube.com/embed/rEYhAKi-j6Y"]
+      "videos": [
+        "https://www.youtube.com/embed/QczGoCmX-pI",
+        "https://www.youtube.com/embed/rEYhAKi-j6Y"
+      ]
     },
     {
       "titulo": "Dragon Ball Z",
@@ -691,8 +705,190 @@
       "episodios": " ",
       "classificacao": " ",
       "lancamento": " ",
-      "videos": ["https://www.youtube.com/embed/sxufB6DxXk0",
-    "https://www.youtube.com/embed/yQJM963be_I"]
+      "videos": [
+        "https://www.youtube.com/embed/sxufB6DxXk0",
+        "https://www.youtube.com/embed/yQJM963be_I"
+      ]
+    },
+    {
+      "titulo": "One Piece",
+      "ano": "(1999)",
+      "url": "https://www.themoviedb.org/tv/37854",
+      "genero": [
+        "Action & Adventure",
+        "Comédia",
+        "Animação"
+      ],
+      "sinopse": "Houve um homem que conquistou tudo aquilo que o mundo tinha a oferecer, o lendário Rei dos Piratas, Gold Roger. Capturado e condenado à execução pelo Governo Mundial, suas últimas palavras lançaram legiões aos mares. \"Meu tesouro? Se quiserem, podem pegá-lo. Procurem-no! Ele contém tudo que este mundo pode oferecer!\". Foi a revelação do maior tesouro, o One Piece, cobiçado por homens de todo o mundo, sonhando com fama e riqueza imensuráveis... Assim começou a Grande Era dos Piratas!",
+      "img": "https://media.themoviedb.org/t/p/w300_and_h450_bestv2/yBYDzzmNoT5uXkXo3NGatLIANYK.jpg",
+      "formato": "TV",
+      "episodios": " ",
+      "classificacao": " ",
+      "lancamento": " ",
+      "videos": [ "https://www.youtube.com/embed/MCb13lbVGE0",
+"https://www.youtube.com/embed/LHTYpWI3S6Q"]
+    },
+    {
+      "titulo": "High School DxD",
+      "ano": "(2012)",
+      "url": "https://www.themoviedb.org/tv/45950-high-school-dxd",
+      "genero": [
+        "Animação",
+        "Action & Adventure",
+        "Comédia",
+        "Sci-Fi & Fantasy"
+      ],
+      "sinopse": "Conta a história de Issei Hyodo, um idiota, vagabundo e pervertido, do segundo ano colegial. Quando Issei, supostamente, consegue uma namorada, ele é morto por ela em seu primeiro encontro. Issei é reencarnado como um demônio, e dali em diante, ele será um servo de Rias, um demônio de alto nível que também é a garota mais bonita no colégio de Issei.",
+      "img": "https://media.themoviedb.org/t/p/w300_and_h450_bestv2/nuGXXJMsinqGAva3niLI00x1h3K.jpg",
+      "formato": "TV",
+      "episodios": " ",
+      "classificacao": " ",
+      "lancamento": " ",
+      "videos": ["https://www.youtube.com/embed/VIYeBCyChqg",
+"https://www.youtube.com/embed/REl6n1Ip08I"]
+    },
+    {
+      "titulo": "High School of the Dead",
+      "ano": "(2010)",
+      "url": "https://www.themoviedb.org/tv/56998-gakuen-mokushiroku-high-school-of-the-dead",
+      "genero": [
+        "Animação",
+        "Action & Adventure",
+        "Drama",
+        "Sci-Fi & Fantasy"
+      ],
+      "sinopse": "Numa manhã comum tudo acontecia normal como em qualquer outro dia. Do telhado, Komuro Takashi, observa um estranho acontecimento nos portões do colégio, um homem suspeito está causando confusão. Um dos professores acaba sendo mordido pelo homem suspeito e em meio a gritos de desespero dos outros professores ele se levanta, mas agora ele é um zumbi. Enquanto isso, Takashi corre de volta para dentro do colégio e junto com suas amigas Rei e Hisashi eles decidem fugir do colégio. Mas agora já é tarde demais, pois o colégio já está infestado de professores e outros colegiais zumbis. Assim começa a história de sobrevivência desses simples colegiais.",
+      "img": "https://media.themoviedb.org/t/p/w300_and_h450_bestv2/oPiNGGZyBzst3hKGFU1mteT0zhe.jpg",
+      "formato": "TV",
+      "episodios": " ",
+      "classificacao": " ",
+      "lancamento": " ",
+      "videos": ["https://www.youtube.com/embed/mbipKR7pKjg",
+"https://www.youtube.com/embed/uAbr-FHHC0Y"]
+    },
+    {
+      "titulo": "Domestic Girlfriend",
+      "ano": "(2019)",
+      "url": "https://www.themoviedb.org/tv/83103",
+      "genero": [
+        "Animação",
+        "Drama"
+      ],
+      "sinopse": "Natsuo é um colegial que está enfrentando o esmagador desalento de seu amor não-correspondido por sua professora, Hina. Tentando se animar, ele vai a uma festa de solteiros, onde conhece uma garota chamada Rui. Os dois passam a noite juntos, imaginando que nunca mais se veriam novamente, mas o destino tinha planos para os dois. Sua vida fica ainda mais complicada quando seu pai volta à casa, anunciando que se casou novamente com a mãe de duas garotas que Natsuo conhece: Hina e Rui!",
+      "img": "https://media.themoviedb.org/t/p/w300_and_h450_bestv2/yT5HNeqQaoF4TmmQi3RMj8P7uwZ.jpg",
+      "formato": "TV",
+      "episodios": " ",
+      "classificacao": " ",
+      "lancamento": " ",
+      "videos": ["https://www.youtube.com/embed/A8dh2392QsQ",
+"https://www.youtube.com/embed/SaKdpMnwZf0"]
+    },
+    {
+      "titulo": "Ben-To",
+      "ano": "(2011)",
+      "url": "https://www.themoviedb.org/tv/61970-ben-to",
+      "genero": [
+        "Action & Adventure",
+        "Animação",
+        "Comédia",
+        "Drama"
+      ],
+      "sinopse": "A história é sobre um garoto pobre do colegial chamado Satou You. Satou vai à um supermercado e descobre um bento à venda pela metade do preço. Assim que ele chega para pegá-lo, ele cai inconsciente no chão. Ele acaba de entrar para a cruel, sem barreiras, Batalha de Sobrevivência do Supermercado pelo bento pela metade do preço!",
+      "img": "https://media.themoviedb.org/t/p/w300_and_h450_bestv2/tilQgKy9zLo4nSVAaphRMhC0Tbu.jpg",
+      "formato": "TV",
+      "episodios": " ",
+      "classificacao": " ",
+      "lancamento": " ",
+      "videos": ["https://www.youtube.com/embed/A8Agph-a3bI",
+"https://www.youtube.com/embed/ComdbjzXfic"]
+    },
+    {
+      "titulo": "GOBLIN SLAYER",
+      "ano": "(2018)",
+      "url": "https://www.themoviedb.org/tv/82591",
+      "genero": [
+        "Animação",
+        "Action & Adventure",
+        "Sci-Fi & Fantasy"
+      ],
+      "sinopse": "Uma jovem sacerdotisa forma seu primeiro bando de aventureiros, mas eles imediatamente se metem em apuros. É então que o Goblin Slayer vem a seu resgate - um homem que dedica sua vida a exterminar todos os goblins, custe o que custar. E quando seus feitos começam a se espalhar, ninguém sabe o que pode acontecer depois...",
+      "img": "https://media.themoviedb.org/t/p/w300_and_h450_bestv2/x8ZQyxAFjz9jtCGivbOMYUC4Tp3.jpg",
+      "formato": "TV",
+      "episodios": " ",
+      "classificacao": " ",
+      "lancamento": " ",
+      "videos": ["https://www.youtube.com/embed/SFMusDom-eo",
+"https://www.youtube.com/embed/7qnhoB_cHSg"]
+    },
+    {
+      "titulo": "Rent-a-Girlfriend",
+      "ano": "(2020)",
+      "url": "https://www.themoviedb.org/tv/96316",
+      "genero": [
+        "Animação",
+        "Comédia"
+      ],
+      "sinopse": "Depois de ser rejeitado pela sua ex-namorada, Kazuya Kinoshita decide entrar em um aplicativo para celular que permite alugar uma namorada. Em sua primeira pesquisa, ele encontra Chizuru Mizuhara, uma garota linda e aparentemente perfeita.",
+      "img": "https://media.themoviedb.org/t/p/w300_and_h450_bestv2/uwDDmfNQGzbAGtOgzdGO7UteNU.jpg",
+      "formato": "TV",
+      "episodios": " ",
+      "classificacao": " ",
+      "lancamento": " ",
+      "videos": ["https://www.youtube.com/embed/jZFEtc3CKHs",
+"https://www.youtube.com/embed/0jcbEbYs72Q"]
+    },
+    {
+      "titulo": "ORESUKI Are you the only one who loves me",
+      "ano": "(2019)",
+      "url": "https://www.themoviedb.org/tv/93019-ore-wo-suki-na-no-wa-omae-dake-ka-yo",
+      "genero": [
+        "Animação",
+        "Comédia",
+        "Drama"
+      ],
+      "sinopse": "O que você faria se a sua crush te chamasse pra sair? E se fossem duas? Cosmos, bela e sedutora, e Himawari, a amiga fofa de infância! Claro que você combinaria de sair com as duas... Só que elas querem é te pedir conselhos amorosos pois estão gostando de outro cara. Hahaha... Mesmo assim, não posso desistir! Se eu der conselhos românticos, talvez uma delas se apaixone por mim! Só que uma garota percebeu minha solitária batalha... Ela é Sumireko Sanshokuin, uma melancólica garota de trancinhas e óculos fundo-de-garrafa. Eu a detesto, e ainda assim... Ela é a única que está a fim de mim?!",
+      "img": "https://media.themoviedb.org/t/p/w300_and_h450_bestv2/4MojZik5N62IShd2BFVEHyaRBLP.jpg",
+      "formato": "TV",
+      "episodios": " ",
+      "classificacao": " ",
+      "lancamento": " ",
+      "videos": ["https://www.youtube.com/embed/nXrUw68zlTY",
+"https://www.youtube.com/embed/Pt3MqwiSyKY"]
+    },
+    {
+      "titulo": "Nisekoi",
+      "ano": "(2014)",
+      "url": "https://www.themoviedb.org/tv/62640-nisekoi",
+      "genero": [
+        "Animação",
+        "Comédia"
+      ],
+      "sinopse": "Raku Ichijo é um estudante normal de ensino médio. Por acaso ele também é o único herdeiro que liderará a família yakuza chamada Shuei-gumi. Há 10 anos, Raku fez uma promessa... uma promessa em segredo com uma garota que conheceu. Eles prometeram que iam \"se casar quando se reencontrassem.\" Desde então, Raku sempre guardou com muito carinho o pingente que a garota lhe deu.",
+      "img": "https://media.themoviedb.org/t/p/w300_and_h450_bestv2/x15LnCbRgRlZFnq2kQdbW9tlheZ.jpg",
+      "formato": "TV",
+      "episodios": " ",
+      "classificacao": " ",
+      "lancamento": " ",
+      "videos": ["https://www.youtube.com/embed/dPBBNxl_nKE",
+"https://www.youtube.com/embed/PuB1VpKbWtE"]
+    },
+    {
+      "titulo": "Sankarea",
+      "ano": "(2012)",
+      "url": "https://www.themoviedb.org/tv/62742-sankarea-undying-love",
+      "genero": [
+        "Animação",
+        "Comédia",
+        "Drama"
+      ],
+      "sinopse": "Furuya Chihiro é um garoto obcecado por zumbis. Ele coleciona bonecos, DVDs, camisetas, e tudo mais relacionado a eles. Mas o que ele mais gosta são garotas zumbis. Seu sonho é encontrar uma namorada morta-viva. Quando seu gato morre, tomado pela tristeza ele decide ir a um prédio abandonado e realizar um ritualpara trazê-lo de volta a vida, mas acaba encontrando Sanka Rea, que vai até esse lugar para descontar suas frustrações. Chihiro descobre que Rea tem vontade de morrer e voltar como uma pessoa diferente, e acaba conversando com ela sobre o que pretendia fazer com seu gato morto. E é aí que as coisas acabam dando errado e o que começou com uma brincadeira, acaba tendo fortes implicações na vida de Rea.",
+      "img": "https://media.themoviedb.org/t/p/w300_and_h450_bestv2/9yhc0g2g0m8cFe6BhHPeU1XqVNc.jpg",
+      "formato": "TV",
+      "episodios": " ",
+      "classificacao": " ",
+      "lancamento": " ",
+      "videos": ["https://www.youtube.com/embed/Cz23IjHbUJY",
+"https://www.youtube.com/embed/-BP9CHXtvec"]
     }
   ]
 }
