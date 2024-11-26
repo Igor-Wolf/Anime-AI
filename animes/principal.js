@@ -91,7 +91,12 @@ async function injetar() {
                     var overlay = document.createElement("div");
 
                     // Adiciona classes e estilos CSS para o overlay
+
+                    var tumbvideo = getLastPart(caminho)
+
                     overlay.classList.add("video-overlay");
+                    overlay.style.backgroundImage = `url("https://i.ytimg.com/vi/${tumbvideo}/mqdefault.jpg")`
+                    overlay.style.backgroundSize = "cover"
                     overlay.style.position = "absolute";
                     overlay.style.top = "0";
                     overlay.style.left = "0";
@@ -207,3 +212,11 @@ function pauseVideo(video) {
 
 
 
+
+
+function getLastPart(url) {
+    // Divide a string pelo caractere '/' e retorna o último elemento do array
+    const parts = url.split('/');
+    return parts[parts.length - 1];
+
+}
