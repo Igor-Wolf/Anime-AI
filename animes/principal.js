@@ -11,6 +11,8 @@ let epi = document.querySelector(".epi")
 var container = document.getElementById("videos");
 let strGender = "";
 
+let divExterna = document.querySelector('.geral');
+
 
 function realizar() {
 
@@ -220,3 +222,116 @@ function getLastPart(url) {
     return parts[parts.length - 1];
 
 }
+
+
+//--------------------------------------------------------------------------------------------- Recomendações
+
+
+
+
+const linhaDivisoria = document.createElement('div');
+
+// Ajustando o CSS inline
+linhaDivisoria.style.marginTop = "20px";
+linhaDivisoria.style.marginBottom = "10px";
+linhaDivisoria.style.borderLeft = "5px solid #ff0000"; // Exemplo: uma barra lateral vermelha
+linhaDivisoria.style.paddingLeft = "15px";
+
+// Definimos o que tem dentro da div que criamos
+linhaDivisoria.innerHTML = `
+    <span>
+        <h3>Recomendações</h3>
+    </span>
+    <div class="divisor"></div>
+`;
+
+// Agora sim, adicionamos o objeto à div externa
+divExterna.appendChild(linhaDivisoria);
+
+
+const carregarComponenteCarrossel = (containerPai, lista) => {
+    // 1. Seleciona a div onde tudo será injetado (ex: .geral)
+    const pai = document.querySelector(containerPai);
+    
+    // 2. Cria a div interna que o Owl Carousel precisa
+    const divCarrossel = document.createElement('div');
+    divCarrossel.className = 'owl-two owl-carousel owl-theme';
+
+    // 3. Gera o HTML dos itens
+    const itensHTML = lista.map(anime => `
+        
+        <div class="item">
+            <img class="box-anime" 
+                 src="https://www.themoviedb.org/t/p/w600_and_h900_bestv2/${anime.img}" 
+                 alt="${anime.titulo}" 
+                 style="max-height: 400px; width: 100%; object-fit: cover";
+                 onclick="window.location.href = '${anime.titulo.replaceAll(" ", "-")}.html'">
+
+                 <div class="info-anime" style="padding: 10px; background: rgba(0,0,0,0.7); color: white;">
+            <h4 style="margin: 0;">${anime.titulo} ${anime.similaridade}</h4>
+            <p style="font-size: 12px;">Clique para ver mais detalhes </p>
+        </div>
+        </div>
+
+    `).join('');
+
+    // 4. Alimenta a div do carrossel com os itens
+    divCarrossel.innerHTML = itensHTML;
+
+    // 5. Injeta a div do carrossel dentro da div externa (.geral)
+    pai.appendChild(divCarrossel);
+
+    // 6. Inicializa o plugin do carrossel
+    $(divCarrossel).owlCarousel({
+        loop: false,
+        margin: 10,
+        nav: false,
+        responsive: {
+            0: { items: 1 },
+            600: { items: 3 },
+            1000: { items: 4 }
+        }
+    });
+};
+
+$(document).ready(async function() { // Adicionamos async aqui no ready
+    
+   const buscarAnimes = async (tituloAnime) => {
+    try {
+        console.log("Iniciando busca para:", tituloAnime); // LOG 1
+
+        const resposta = await fetch(`https://anime-ai-recomend-back.vercel.app/api/recomendation/2/${tituloAnime}`); 
+        
+        console.log("Status da Resposta:", resposta.status); // LOG 2 (Deve ser 200)
+
+        if (!resposta.ok) throw new Error(`Erro HTTP! status: ${resposta.status}`);
+
+        const dados = await resposta.json();
+        
+        console.log("Dados recebidos da API:", dados); // LOG 3 - VEJA O FORMATO AQUI
+        
+        // Se quiser ver um alerta com o primeiro nome da lista:
+        if(dados.length > 0) {
+            
+        }
+
+        return dados; 
+        
+    } catch (erro) {
+        console.error("ERRO DETALHADO:", erro);
+        alert("Falha na requisição: " + erro.message);
+        return null;
+    }
+};
+    
+    // 1. Você precisa de um título para a busca (exemplo: 'Naruto')
+    const tituloBusca = titulopag.innerHTML;
+
+    // 2. Você PRECISA usar o await aqui, senão o JS passa batido sem os dados
+    const listaAnimes = await buscarAnimes(tituloBusca);
+
+    // 3. Só carrega o componente se os dados existirem
+    if (listaAnimes) {
+        carregarComponenteCarrossel('.geral', listaAnimes);
+    }
+});
